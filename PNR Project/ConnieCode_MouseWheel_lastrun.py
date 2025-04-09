@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
-    on April 07, 2025, at 16:38
+    on April 09, 2025, at 15:44
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -30,6 +30,9 @@ import sys  # to get file system encoding
 
 import psychopy.iohub as io
 from psychopy.hardware import keyboard
+
+# Run 'Before Experiment' code from code
+from psychopy import visual, core, event
 
 # Run 'Before Experiment' code from stimParams
 import numpy as np  # whole numpy lib is available, prepend 'np.'
@@ -371,9 +374,49 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # Start Code - component code to be run after the window creation
     
+    # --- Initialize components for Routine "mouseWheel" ---
+    image = visual.ImageStim(
+        win=win,
+        name='image', 
+        image='stimuli/Connie/cube/alphabetblock.jpg', mask=None, anchor='center',
+        ori=0.0, pos=(0, 0), draggable=False, size=(0.5, 0.5),
+        color=[1,1,1], colorSpace='rgb', opacity=None,
+        flipHoriz=False, flipVert=False,
+        texRes=128.0, interpolate=True, depth=0.0)
+    # Run 'Begin Experiment' code from code
+    
+    win = visual.Window([800, 600], color='black')
+    
+    polygon = visual.Polygon(win, edges=6, size=(0.5, 0.5), fillColor='blue', lineColor='white')
+    
+    while True:
+        # Get scroll input
+        wheel = event.mouseWheelRel[1]
+    
+        if wheel > 0:
+            new_size = polygon.size[0] + 0.1
+            polygon.size = (new_size, new_size)
+        elif wheel < 0:
+            new_size = max(0.1, polygon.size[0] - 0.1)
+            polygon.size = (new_size, new_size)
+    
+        polygon.draw()
+        win.flip()
+    
+        # Close if escape key pressed
+        if 'escape' in event.getKeys():
+            break
+    
+        core.wait(0.01)
+    
+    win.close()
+    core.quit()
+    
+    
     # --- Initialize components for Routine "loadExpVar" ---
     # Run 'Begin Experiment' code from stimParams
     # try to import pyglet & pygame 
+    '''
     try:
         from pygame import mouse, locals, joystick, display
         import pygame.key
@@ -1687,6 +1730,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     if havePyglet:
         globalKeys = _GlobalEventKeys()
+    
+    '''
     # Run 'Begin Experiment' code from loadImages
     #imageFilePath
     imageFilePath ="C:/Users/cocon/OneDrive/Documents/GitHub/psychedeLightsExpCode/"#'C:/Users/ipmmz/Desktop/psychedeLights_psychopy/'#
@@ -1720,6 +1765,127 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     expInfo['expStart'] = data.getDateStr(
         format='%Y-%m-%d %Hh%M.%S.%f %z', fractionalSecondDigits=6
     )
+    
+    # --- Prepare to start Routine "mouseWheel" ---
+    # create an object to store info about Routine mouseWheel
+    mouseWheel = data.Routine(
+        name='mouseWheel',
+        components=[image],
+    )
+    mouseWheel.status = NOT_STARTED
+    continueRoutine = True
+    # update component parameters for each repeat
+    # store start times for mouseWheel
+    mouseWheel.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
+    mouseWheel.tStart = globalClock.getTime(format='float')
+    mouseWheel.status = STARTED
+    thisExp.addData('mouseWheel.started', mouseWheel.tStart)
+    mouseWheel.maxDuration = None
+    # keep track of which components have finished
+    mouseWheelComponents = mouseWheel.components
+    for thisComponent in mouseWheel.components:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    frameN = -1
+    
+    # --- Run Routine "mouseWheel" ---
+    mouseWheel.forceEnded = routineForceEnded = not continueRoutine
+    while continueRoutine and routineTimer.getTime() < 1.0:
+        # get current time
+        t = routineTimer.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=routineTimer)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        
+        # *image* updates
+        
+        # if image is starting this frame...
+        if image.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            image.frameNStart = frameN  # exact frame index
+            image.tStart = t  # local t and not account for scr refresh
+            image.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(image, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'image.started')
+            # update status
+            image.status = STARTED
+            image.setAutoDraw(True)
+        
+        # if image is active this frame...
+        if image.status == STARTED:
+            # update params
+            pass
+        
+        # if image is stopping this frame...
+        if image.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > image.tStartRefresh + 1.0-frameTolerance:
+                # keep track of stop time/frame for later
+                image.tStop = t  # not accounting for scr refresh
+                image.tStopRefresh = tThisFlipGlobal  # on global time
+                image.frameNStop = frameN  # exact frame index
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'image.stopped')
+                # update status
+                image.status = FINISHED
+                image.setAutoDraw(False)
+        
+        # check for quit (typically the Esc key)
+        if defaultKeyboard.getKeys(keyList=["escape"]):
+            thisExp.status = FINISHED
+        if thisExp.status == FINISHED or endExpNow:
+            endExperiment(thisExp, win=win)
+            return
+        # pause experiment here if requested
+        if thisExp.status == PAUSED:
+            pauseExperiment(
+                thisExp=thisExp, 
+                win=win, 
+                timers=[routineTimer], 
+                playbackComponents=[]
+            )
+            # skip the frame we paused on
+            continue
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            mouseWheel.forceEnded = routineForceEnded = True
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in mouseWheel.components:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # --- Ending Routine "mouseWheel" ---
+    for thisComponent in mouseWheel.components:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    # store stop times for mouseWheel
+    mouseWheel.tStop = globalClock.getTime(format='float')
+    mouseWheel.tStopRefresh = tThisFlipGlobal
+    thisExp.addData('mouseWheel.stopped', mouseWheel.tStop)
+    # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
+    if mouseWheel.maxDurationReached:
+        routineTimer.addTime(-mouseWheel.maxDuration)
+    elif mouseWheel.forceEnded:
+        routineTimer.reset()
+    else:
+        routineTimer.addTime(-1.000000)
+    thisExp.nextEntry()
     
     # --- Prepare to start Routine "loadExpVar" ---
     # create an object to store info about Routine loadExpVar

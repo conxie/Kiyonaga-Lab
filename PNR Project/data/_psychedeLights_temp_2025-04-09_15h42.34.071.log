@@ -1,0 +1,62 @@
+4.5799 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+4.5806 	INFO 	Loaded monitor calibration from ['2025_03_31 21:04']
+4.8186 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001AC1FB7C820>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001AC1FB7C7C0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001AC1FC27100>, multiSample=False, name='window1', numSamples=2, pos=[560.0, 300.0], screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+4.8187 	EXP 	window1: backgroundImage = ''
+4.8187 	EXP 	window1: backgroundFit = 'none'
+4.8248 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8253 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8258 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8263 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8269 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8272 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8277 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8283 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8285 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8288 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8292 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8297 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8301 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8306 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8310 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8315 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8320 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8322 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8326 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8332 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8335 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8337 	DEBUG 	Uploading Texture Font fontname to graphics card
+4.8346 	DEBUG 	Upload of Texture Font fontname complete
+4.8387 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8394 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8400 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8402 	DEBUG 	Uploading Texture Font fontname to graphics card
+4.8407 	DEBUG 	Upload of Texture Font fontname complete
+4.8421 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+4.8421 	EXP 	window1: recordFrameIntervals = False
+5.0042 	EXP 	window1: recordFrameIntervals = True
+5.1880 	EXP 	Screen (0) actual frame rate measured at 60.18Hz
+5.1881 	EXP 	window1: recordFrameIntervals = False
+5.1914 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.1918 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.1923 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.1930 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.1937 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.1944 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.1948 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.1953 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.1960 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.1966 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.1968 	DEBUG 	Uploading Texture Font fontname to graphics card
+5.1973 	DEBUG 	Upload of Texture Font fontname complete
+5.2073 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+7.4889 	INFO 	keyboard.Keyboard is using iohub backend.
+7.4890 	EXP 	psychedeLights_temp: status = STARTED
+7.9434 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='stimuli/Connie/cube/alphabetblock.jpg', interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+7.9436 	WARNING 	Monitor specification not found. Creating a temporary one...
+8.4211 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001AC1FB7C820>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001AC1FB7C7C0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001AC202633D0>, multiSample=False, name='window1', numSamples=2, pos=(560, 300), screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='norm', useFBO=False, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.4212 	EXP 	window1: backgroundImage = None
+8.4212 	EXP 	window1: backgroundFit = 'cover'
+8.4241 	EXP 	Created unnamed Polygon = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([-1, -1,  1]), fillColorSpace='rgb', fillRGB=array([-1, -1,  1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.5, name='unnamed Polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='norm', vertices=ndarray(...), win=Window(...))
+8.4664 	DEBUG 	Saving data for psychedeLights_temp ExperimentHandler
+8.4674 	INFO 	saved data to C:\Users\cocon\OneDrive\Documents\GitHub\Kiyonaga-Lab\PNR Project\data/_psychedeLights_temp_2025-04-09_15h42.34.071.psydat
+8.4679 	INFO 	saved data to 'C:\\Users\\cocon\\OneDrive\\Documents\\GitHub\\Kiyonaga-Lab\\PNR Project\\data/_psychedeLights_temp_2025-04-09_15h42.34.071.csv'
