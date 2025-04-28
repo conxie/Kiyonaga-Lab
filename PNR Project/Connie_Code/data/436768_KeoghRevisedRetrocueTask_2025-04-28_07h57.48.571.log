@@ -1,0 +1,96 @@
+7.9168 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+7.9405 	INFO 	Loaded monitor calibration from ['2025_03_31 21:04']
+9.3671 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001EF08B92AD0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001EF08B92A70>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001EF08C275B0>, multiSample=False, name='window1', numSamples=2, pos=[560.0, 300.0], screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.3672 	EXP 	window1: backgroundImage = ''
+9.3672 	EXP 	window1: backgroundFit = 'none'
+9.3855 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.3864 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.3872 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.3882 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.3891 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.3896 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.3904 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.3925 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.3929 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.3933 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.3941 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.3949 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.3956 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.3963 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.3970 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.3978 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.3986 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.3990 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.3995 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.4007 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.4017 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.4029 	DEBUG 	Uploading Texture Font fontname to graphics card
+9.4062 	DEBUG 	Upload of Texture Font fontname complete
+9.4139 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.4149 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.4159 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.4161 	DEBUG 	Uploading Texture Font fontname to graphics card
+9.4173 	DEBUG 	Upload of Texture Font fontname complete
+9.4203 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+9.4203 	EXP 	window1: recordFrameIntervals = False
+9.6054 	EXP 	window1: recordFrameIntervals = True
+9.7196 	WARNING 	t of last frame was 49.24ms (=1/20)
+9.8902 	EXP 	Screen (0) actual frame rate measured at 58.80Hz
+9.8903 	EXP 	window1: recordFrameIntervals = False
+9.8966 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.8971 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.8980 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.8991 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.9004 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.9020 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.9026 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.9036 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.9046 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.9057 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.9061 	DEBUG 	Uploading Texture Font fontname to graphics card
+9.9075 	DEBUG 	Upload of Texture Font fontname complete
+9.9834 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+13.9218 	INFO 	keyboard.Keyboard is using iohub backend.
+13.9219 	EXP 	KeoghRevisedRetrocueTask: status = STARTED
+13.9221 	INFO 	keyboard.Keyboard is using iohub backend.
+13.9517 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.12, 0.12]), texRes=128, units='height', win=Window(...))
+13.9676 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.12, 0.12]), texRes=128, units='height', win=Window(...))
+13.9724 	EXP 	Created unnamed Polygon = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb255', contrast=None, depth=0, draggable=False, fillColor=array([128, 115,  96]), fillColorSpace='rgb255', fillRGB=array([ 0.00392157, -0.09803922, -0.24705882]), interpolate=True, lineColor=array([255., 255., 255.]), lineColorSpace='rgb255', lineRGB=array([1, 1, 1]), lineWidth=1.5, name='unnamed Polygon', opacity=1, ori=45.0, pos=array([0., 0.]), size=array([0.06, 0.06]), units='height', vertices=ndarray(...), win=Window(...))
+13.9737 	EXP 	Created unnamed Polygon = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([-1, -1,  1]), fillColorSpace='rgb', fillRGB=array([-1, -1,  1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.5, name='unnamed Polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...))
+16.0065 	DATA 	Mouse: wheel shift=(0,1), pos=(326,27)
+16.0123 	DATA 	Mouse: wheel shift=(0,0), pos=(326,27)
+16.0238 	DATA 	Mouse: wheel shift=(0,0), pos=(326,27)
+16.0262 	DATA 	Mouse: wheel shift=(0,0), pos=(326,27)
+16.0343 	DATA 	Mouse: wheel shift=(0,0), pos=(326,27)
+18.7407 	DATA 	Mouse: wheel shift=(0,-1), pos=(264,454)
+18.7468 	DATA 	Mouse: wheel shift=(0,0), pos=(264,454)
+18.7721 	DATA 	Mouse: wheel shift=(0,0), pos=(264,454)
+18.7739 	DATA 	Mouse: wheel shift=(0,0), pos=(264,454)
+18.7810 	DATA 	Mouse: wheel shift=(0,0), pos=(264,454)
+18.8053 	DATA 	Mouse: wheel shift=(0,0), pos=(264,454)
+18.8079 	DATA 	Mouse: wheel shift=(0,0), pos=(264,454)
+18.8080 	DATA 	Mouse: wheel shift=(0,0), pos=(264,454)
+18.8158 	DATA 	Mouse: wheel shift=(0,0), pos=(264,454)
+18.8413 	DATA 	Mouse: wheel shift=(0,0), pos=(264,454)
+19.0550 	DATA 	Mouse: wheel shift=(0,-1), pos=(264,454)
+19.0578 	DATA 	Mouse: wheel shift=(0,0), pos=(264,454)
+19.0648 	DATA 	Mouse: wheel shift=(0,0), pos=(264,454)
+19.0733 	DATA 	Mouse: wheel shift=(0,0), pos=(264,454)
+19.0797 	DATA 	Mouse: wheel shift=(0,0), pos=(264,454)
+19.0897 	DATA 	Mouse: wheel shift=(0,0), pos=(264,454)
+19.0927 	DATA 	Mouse: wheel shift=(0,0), pos=(264,454)
+19.0987 	DATA 	Mouse: wheel shift=(0,0), pos=(264,454)
+19.1219 	DATA 	Mouse: wheel shift=(0,0), pos=(264,454)
+19.1400 	DATA 	Mouse: wheel shift=(0,0), pos=(264,454)
+19.1483 	DATA 	Mouse: wheel shift=(0,0), pos=(264,454)
+19.1702 	DATA 	Mouse: wheel shift=(0,0), pos=(264,454)
+19.1807 	DATA 	Mouse: wheel shift=(0,0), pos=(264,454)
+19.1948 	DATA 	Mouse: wheel shift=(0,0), pos=(264,454)
+19.2061 	DATA 	Mouse: wheel shift=(0,0), pos=(264,454)
+19.2271 	DATA 	Mouse: wheel shift=(0,0), pos=(264,454)
+19.2397 	DATA 	Mouse: wheel shift=(0,0), pos=(264,454)
+19.2740 	DATA 	Mouse: wheel shift=(0,0), pos=(264,454)
+20.7949 	DATA 	Keypress: escape
+21.5260 	DEBUG 	Saving data for KeoghRevisedRetrocueTask ExperimentHandler
+21.5269 	INFO 	saved data to C:\Users\cocon\OneDrive\Documents\GitHub\Kiyonaga-Lab\PNR Project\Connie_Code\data/436768_KeoghRevisedRetrocueTask_2025-04-28_07h57.48.571.psydat
+21.5277 	INFO 	saved data to 'C:\\Users\\cocon\\OneDrive\\Documents\\GitHub\\Kiyonaga-Lab\\PNR Project\\Connie_Code\\data/436768_KeoghRevisedRetrocueTask_2025-04-28_07h57.48.571.csv'

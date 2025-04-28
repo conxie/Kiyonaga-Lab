@@ -1,0 +1,60 @@
+5.7664 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+5.7677 	INFO 	Loaded monitor calibration from ['2025_03_31 21:04']
+6.1357 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000026324F02620>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000026324F025C0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000026324FDDEA0>, multiSample=False, name='window1', numSamples=2, pos=[560.0, 300.0], screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.1357 	EXP 	window1: backgroundImage = ''
+6.1357 	EXP 	window1: backgroundFit = 'none'
+6.1456 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1464 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1470 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1477 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1484 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1488 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1494 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1501 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1504 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1506 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1512 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1518 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1523 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1528 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1533 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1539 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1544 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1548 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1552 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1560 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1564 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1567 	DEBUG 	Uploading Texture Font fontname to graphics card
+6.1596 	DEBUG 	Upload of Texture Font fontname complete
+6.1675 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1683 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1690 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1692 	DEBUG 	Uploading Texture Font fontname to graphics card
+6.1710 	DEBUG 	Upload of Texture Font fontname complete
+6.1744 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+6.1744 	EXP 	window1: recordFrameIntervals = False
+6.3490 	EXP 	window1: recordFrameIntervals = True
+6.5331 	EXP 	Screen (0) actual frame rate measured at 60.15Hz
+6.5331 	EXP 	window1: recordFrameIntervals = False
+6.5381 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.5385 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.5392 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.5400 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.5407 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.5415 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.5419 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.5426 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.5434 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.5441 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.5444 	DEBUG 	Uploading Texture Font fontname to graphics card
+6.5473 	DEBUG 	Upload of Texture Font fontname complete
+6.5611 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+9.2693 	INFO 	keyboard.Keyboard is using iohub backend.
+9.2693 	EXP 	KeoghRevisedRetrocueTask: status = STARTED
+9.2694 	INFO 	keyboard.Keyboard is using iohub backend.
+9.3076 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.12, 0.12]), texRes=128, units='height', win=Window(...))
+9.3340 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.12, 0.12]), texRes=128, units='height', win=Window(...))
+9.3392 	EXP 	Created unnamed Polygon = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb255', contrast=None, depth=0, draggable=False, fillColor=array([128, 115,  96]), fillColorSpace='rgb255', fillRGB=array([ 0.00392157, -0.09803922, -0.24705882]), interpolate=True, lineColor=array([255., 255., 255.]), lineColorSpace='rgb255', lineRGB=array([1, 1, 1]), lineWidth=1.5, name='unnamed Polygon', opacity=1, ori=45.0, pos=array([0., 0.]), size=array([0.06, 0.06]), units='height', vertices=ndarray(...), win=Window(...))
+0.0495 	DEBUG 	Saving data for KeoghRevisedRetrocueTask ExperimentHandler
+0.0504 	INFO 	saved data to C:\Users\cocon\OneDrive\Documents\GitHub\Kiyonaga-Lab\PNR Project\Connie_Code\data/289028_KeoghRevisedRetrocueTask_2025-04-28_14h02.52.552.psydat
+0.0513 	INFO 	saved data to 'C:\\Users\\cocon\\OneDrive\\Documents\\GitHub\\Kiyonaga-Lab\\PNR Project\\Connie_Code\\data/289028_KeoghRevisedRetrocueTask_2025-04-28_14h02.52.552.csv'

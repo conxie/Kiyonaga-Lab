@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
-    on April 28, 2025, at 13:51
+    on April 28, 2025, at 15:26
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -43,6 +43,8 @@ import sys  # to get file system encoding
 import glob
 import itertools
 
+from psychopy import visual, event, core
+import random
 # --- Setup global variables (available in all functions) ---
 # create a device manager to handle hardware (keyboards, mice, mirophones, speakers, etc.)
 deviceManager = hardware.DeviceManager()
@@ -136,7 +138,7 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version='',
         extraInfo=expInfo, runtimeInfo=None,
-        originPath='C:\\Users\\cocon\\OneDrive\\Documents\\GitHub\\Kiyonaga-Lab\\PNR Project\\Connie_Code\\BaseCode_lastrun.py',
+        originPath='C:\\Users\\cocon\\OneDrive\\Documents\\GitHub\\Kiyonaga-Lab\\PNR Project\\Connie_Code\\restartcode_lastrun.py',
         savePickle=True, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )
@@ -374,17 +376,40 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # --- Initialize components for Routine "loadExpVar" ---
     # Run 'Begin Experiment' code from loadImages
     
-    imageFilePath = "C:/Users/cocon/OneDrive/Documents/GitHub/Kiyonaga-Lab/PNR Project/stimuli"
-    
-    strMapping = {'cu':'Mycah/cube/',
-                  'cy':'Mycah/cylinder/',
-                  'sp':'Mycah/sphere/'}
-    strMapping_naturalistic = {'cu':'Connie/cube/',
-                  'cy':'Connie/cylinder/',
-                  'sp':'Connie/sphere/'}
+    imageFilePath = "C:/Users/cocon/OneDrive/Documents/GitHub/Kiyonaga-Lab/PNR Project/stimuli/cylinders"
     
     def fix_slashes(path_list):
         return [path.replace('\\', '/') for path in path_list]
+    
+    def verify_image_paths(image_paths, variable_name="your list"):
+        """
+        Check if all given image file paths exist.
+        Prints found files and customized missing file report.
+        
+        Args:
+        - image_paths (list): list of file paths to check
+        - variable_name (str): name of the variable (for clear output)
+        """
+        missing_files = []
+        found_files = []
+        
+        for path in image_paths:
+            if os.path.exists(path):
+                found_files.append(path)
+            else:
+                missing_files.append(path)
+        
+        if found_files:
+            print(f"Found image files in {variable_name}:")
+            for file in found_files:
+                print(f" - {file}")
+    
+        if missing_files:
+            print(f"Warning: Missing image files in {variable_name}:")
+            for file in missing_files:
+                print(f" - {file}")
+        else:
+            print(f"No missing files in {variable_name}!")
     
     
     clock = core.Clock()
@@ -396,49 +421,51 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     cueCorThis = cueColArr[0]
     
     # Load stimuli (jpg + png)
-    MycahCube = fix_slashes(glob.glob(imageFilePath+'/Mycah/cube/*.jpg') + glob.glob(imageFilePath+'/Mycah/cube/*.png'))
-    MycahCylinder = fix_slashes(glob.glob(imageFilePath+'/Mycah/cylinder/*.jpg') + glob.glob(imageFilePath+'/Mycah/cylinder/*.png'))
-    MycahSphere = fix_slashes(glob.glob(imageFilePath+'/Mycah/sphere/*.jpg') + glob.glob(imageFilePath+'/Mycah/sphere/*.png'))
+    ConnieCube = fix_slashes(glob.glob(imageFilePath) + glob.glob(imageFilePath))
     
-    ConnieCube = fix_slashes(glob.glob(imageFilePath+'/Connie/cube/*.jpg') + glob.glob(imageFilePath+'/Connie/cube/*.png'))
+    '''
     ConnieCylinder = fix_slashes(glob.glob(imageFilePath+'/Connie/cylinder/*.jpg') + glob.glob(imageFilePath+'/Connie/cylinder/*.png'))
     ConnieSphere = fix_slashes(glob.glob(imageFilePath+'/Connie/sphere/*.jpg') + glob.glob(imageFilePath+'/Connie/sphere/*.png'))
+    '''
     
     # Combine and shuffle
-    MycahConnieCube = MycahCube + ConnieCube
-    random.shuffle(MycahConnieCube)
+    random.shuffle(ConnieCube)
     
+    '''
     MycahConnieCylinder = MycahCylinder + ConnieCylinder
     random.shuffle(MycahConnieCylinder)
     
     MycahConnieSphere = MycahSphere + ConnieSphere
     random.shuffle(MycahConnieSphere)
+    '''
     
-    all_images = MycahConnieCube + MycahConnieCylinder + MycahConnieSphere 
+    all_images = ConnieCube 
+    
+    # Checking to see if files exist
+    verify_image_paths(all_images, "all images")
+    
+    important_images = [
+        "C:/Users/cocon/OneDrive/Documents/GitHub/Kiyonaga-Lab/PNR Project/stimuli/fixCirc.png",
+        "C:/Users/cocon/OneDrive/Documents/GitHub/Kiyonaga-Lab/PNR Project/stimuli/retroCue.png"
+    ]
+    
+    verify_image_paths(important_images, "important images")
     
     #info for the images
     fixSize = np.array([0.12,0.12])#np.array([0.16,0.16])
     
     #other images  
-    retrocueMask = visual.ImageStim(
-        win,
-        image='c:/Users/cocon/OneDrive/Documents/GitHub/Kiyonaga-Lab/PNR Project/visualObj/retroCue.png',  # <- your uploaded image!
-        size=fixSize  # adjust size if needed
-    )
+    retrocuePath = "C:/Users/cocon/OneDrive/Documents/GitHub/Kiyonaga-Lab/PNR Project/stimuli/retroCue.png"
     #fixationCross
-    fixCircMask = visual.ImageStim(
-        win,
-        image='c:/Users/cocon/OneDrive/Documents/GitHub/Kiyonaga-Lab/PNR Project/visualObj/fixCirc.png',  # <- your uploaded image!
-        size=fixSize  # adjust size if needed
-    )
+    fixCircPath = "C:/Users/cocon/OneDrive/Documents/GitHub/Kiyonaga-Lab/PNR Project/stimuli/fixCirc.png"
+    
     #cueCircle
     cueCircColor = visual.Polygon(win,edges = 4,radius=1,ori = 45,colorSpace = 'rgb255',fillColor=cueColDefault,size= fixSize/2)
+    cueCircColor.fillColor = cueColDefault
     
     #pathways 
     saved_image_paths =[]
-    probeTypePath = ""
-    
-    #trial info 
+    # Run 'Begin Experiment' code from trialInfo
     blkTotal = 10
     trlEachBlk = 20
     trlTotal = len(all_images)
@@ -447,16 +474,10 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     repsEachCat = int(trlTotal/2)
     distractorArr = np.asarray([0]*trlTotal)
     
-    # Run 'Begin Experiment' code from trialInfo
-    trlTotal = len(all_images)
     
-    # --- Initialize components for Routine "fixation" ---
-    
-    # --- Initialize components for Routine "showStimuli" ---
+    # --- Initialize components for Routine "fixationCircle" ---
     
     # --- Initialize components for Routine "retrocue" ---
-    
-    # --- Initialize components for Routine "testingSession" ---
     
     # create some handy timers
     
@@ -495,8 +516,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     loadExpVar.status = NOT_STARTED
     continueRoutine = True
     # update component parameters for each repeat
-    # Run 'Begin Routine' code from trialInfo
-    trlCnt = 0
     # store start times for loadExpVar
     loadExpVar.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
     loadExpVar.tStart = globalClock.getTime(format='float')
@@ -570,454 +589,264 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # the Routine "loadExpVar" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
     
-    # --- Prepare to start Routine "fixation" ---
-    # create an object to store info about Routine fixation
-    fixation = data.Routine(
-        name='fixation',
-        components=[],
+    # set up handler to look after randomisation of conditions etc
+    trials = data.TrialHandler2(
+        name='trials',
+        nReps=10.0, 
+        method='random', 
+        extraInfo=expInfo, 
+        originPath=-1, 
+        trialList=[None], 
+        seed=None, 
     )
-    fixation.status = NOT_STARTED
-    continueRoutine = True
-    # update component parameters for each repeat
-    # Run 'Begin Routine' code from fixationCircle
-    '''
-    cueCircColor.setAutoDraw(True)
-    fixCircMask.setAutoDraw(True)
+    thisExp.addLoop(trials)  # add the loop to the experiment
+    thisTrial = trials.trialList[0]  # so we can initialise stimuli with some values
+    # abbreviate parameter names if possible (e.g. rgb = thisTrial.rgb)
+    if thisTrial != None:
+        for paramName in thisTrial:
+            globals()[paramName] = thisTrial[paramName]
+    if thisSession is not None:
+        # if running in a Session with a Liaison client, send data up to now
+        thisSession.sendExperimentData()
     
-    clock.reset()
-    kb.clock.reset()
-    kb.clearEvents()
-    
-    win.flip()
-    
-    core.wait(0.5)
-    '''
-    # store start times for fixation
-    fixation.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
-    fixation.tStart = globalClock.getTime(format='float')
-    fixation.status = STARTED
-    thisExp.addData('fixation.started', fixation.tStart)
-    fixation.maxDuration = None
-    # keep track of which components have finished
-    fixationComponents = fixation.components
-    for thisComponent in fixation.components:
-        thisComponent.tStart = None
-        thisComponent.tStop = None
-        thisComponent.tStartRefresh = None
-        thisComponent.tStopRefresh = None
-        if hasattr(thisComponent, 'status'):
-            thisComponent.status = NOT_STARTED
-    # reset timers
-    t = 0
-    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-    frameN = -1
-    
-    # --- Run Routine "fixation" ---
-    fixation.forceEnded = routineForceEnded = not continueRoutine
-    while continueRoutine:
-        # get current time
-        t = routineTimer.getTime()
-        tThisFlip = win.getFutureFlipTime(clock=routineTimer)
-        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-        # update/draw components on each frame
+    for thisTrial in trials:
+        currentLoop = trials
+        thisExp.timestampOnFlip(win, 'thisRow.t', format=globalClock.format)
+        if thisSession is not None:
+            # if running in a Session with a Liaison client, send data up to now
+            thisSession.sendExperimentData()
+        # abbreviate parameter names if possible (e.g. rgb = thisTrial.rgb)
+        if thisTrial != None:
+            for paramName in thisTrial:
+                globals()[paramName] = thisTrial[paramName]
         
-        # check for quit (typically the Esc key)
-        if defaultKeyboard.getKeys(keyList=["escape"]):
-            thisExp.status = FINISHED
-        if thisExp.status == FINISHED or endExpNow:
-            endExperiment(thisExp, win=win)
-            return
-        # pause experiment here if requested
-        if thisExp.status == PAUSED:
-            pauseExperiment(
-                thisExp=thisExp, 
-                win=win, 
-                timers=[routineTimer], 
-                playbackComponents=[]
-            )
-            # skip the frame we paused on
-            continue
+        # --- Prepare to start Routine "fixationCircle" ---
+        # create an object to store info about Routine fixationCircle
+        fixationCircle = data.Routine(
+            name='fixationCircle',
+            components=[],
+        )
+        fixationCircle.status = NOT_STARTED
+        continueRoutine = True
+        # update component parameters for each repeat
+        # Run 'Begin Routine' code from fixationCir
+        fixCircMask = visual.ImageStim(win, image=fixCircPath, size=fixSize)
         
-        # check if all components have finished
-        if not continueRoutine:  # a component has requested a forced-end of Routine
-            fixation.forceEnded = routineForceEnded = True
-            break
-        continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in fixation.components:
-            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                continueRoutine = True
-                break  # at least one component has not yet finished
+        cueCircColor.color = cueColDefault
+        cueCircColor.setAutoDraw(True)
+        fixCircMask.setAutoDraw(True)
         
-        # refresh the screen
-        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-            win.flip()
-    
-    # --- Ending Routine "fixation" ---
-    for thisComponent in fixation.components:
-        if hasattr(thisComponent, "setAutoDraw"):
-            thisComponent.setAutoDraw(False)
-    # store stop times for fixation
-    fixation.tStop = globalClock.getTime(format='float')
-    fixation.tStopRefresh = tThisFlipGlobal
-    thisExp.addData('fixation.stopped', fixation.tStop)
-    thisExp.nextEntry()
-    # the Routine "fixation" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset()
-    
-    # --- Prepare to start Routine "showStimuli" ---
-    # create an object to store info about Routine showStimuli
-    showStimuli = data.Routine(
-        name='showStimuli',
-        components=[],
-    )
-    showStimuli.status = NOT_STARTED
-    continueRoutine = True
-    # update component parameters for each repeat
-    # Run 'Begin Routine' code from stimuliShown
-    '''# Create the window
-    win = visual.Window([800, 600], units="pix")
-    
-    # Setup your left and right images with adjusted positions
-    leftImage = visual.ImageStim(win, pos=(-250, 0))  # Adjust position to leave some margin
-    rightImage = visual.ImageStim(win, pos=(250, 0))  # Adjust position to leave some margin
-    
-    # Select images for this trial
-    selected_images = random.sample(all_images, 2)
-    leftImage.image = selected_images[0]
-    rightImage.image = selected_images[1]
-    
-    # Load the first image and get its original size
-    image = visual.ImageStim(win, image=selected_images[0])
-    image_size = image.size  # Get the original size of the image
-    aspect_ratio = image_size[0] / image_size[1]  # Aspect ratio (width / height)
-    
-    # Define the new size you want for the images (e.g., 350x350), but keep the aspect ratio
-    new_width = 350  # Smaller width to leave a margin
-    new_height = new_width / aspect_ratio  # Calculate the new height based on aspect ratio
-    
-    # Set the size of both images based on the aspect ratio
-    leftImage.size = (new_width, new_height)
-    rightImage.size = (new_width, new_height)
-    
-    # Set images to auto-draw
-    leftImage.setAutoDraw(True)
-    rightImage.setAutoDraw(True)
-    # Now your fixation and images are all ready to display
-    cueCircColor.setAutoDraw(True)
-    fixCircMask.setAutoDraw(True)
-    
-    clock.reset()
-    kb.clock.reset()
-    kb.clearEvents()
-    
-    win.flip()  # flip once to show everything together
-    
-    # --- wait or collect responses here ---
-    core.wait(2.0)  # e.g., wait for 1 second
-    
-    # --- Now turn off images, but KEEP fixation ---
-    leftImage.setAutoDraw(False)
-    rightImage.setAutoDraw(False)
-    
-    win.flip()  # flip to update (now only fixation will be on screen)
-    
-    core.wait(2.0)  # show just the fixation for 500 ms
-    
-    # --- Turn everything off before next trial ---
-    cueCircColor.setAutoDraw(False)
-    fixCircMask.setAutoDraw(False)
-    
-    # Flip to clear everything from the screen
-    win.flip()
-    '''
-    # store start times for showStimuli
-    showStimuli.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
-    showStimuli.tStart = globalClock.getTime(format='float')
-    showStimuli.status = STARTED
-    thisExp.addData('showStimuli.started', showStimuli.tStart)
-    showStimuli.maxDuration = None
-    # keep track of which components have finished
-    showStimuliComponents = showStimuli.components
-    for thisComponent in showStimuli.components:
-        thisComponent.tStart = None
-        thisComponent.tStop = None
-        thisComponent.tStartRefresh = None
-        thisComponent.tStopRefresh = None
-        if hasattr(thisComponent, 'status'):
-            thisComponent.status = NOT_STARTED
-    # reset timers
-    t = 0
-    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-    frameN = -1
-    
-    # --- Run Routine "showStimuli" ---
-    showStimuli.forceEnded = routineForceEnded = not continueRoutine
-    while continueRoutine:
-        # get current time
-        t = routineTimer.getTime()
-        tThisFlip = win.getFutureFlipTime(clock=routineTimer)
-        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-        # update/draw components on each frame
+        clock.reset()
+        kb.clock.reset()
+        kb.clearEvents()
         
-        # check for quit (typically the Esc key)
-        if defaultKeyboard.getKeys(keyList=["escape"]):
-            thisExp.status = FINISHED
-        if thisExp.status == FINISHED or endExpNow:
-            endExperiment(thisExp, win=win)
-            return
-        # pause experiment here if requested
-        if thisExp.status == PAUSED:
-            pauseExperiment(
-                thisExp=thisExp, 
-                win=win, 
-                timers=[routineTimer], 
-                playbackComponents=[]
-            )
-            # skip the frame we paused on
-            continue
-        
-        # check if all components have finished
-        if not continueRoutine:  # a component has requested a forced-end of Routine
-            showStimuli.forceEnded = routineForceEnded = True
-            break
-        continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in showStimuli.components:
-            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                continueRoutine = True
-                break  # at least one component has not yet finished
-        
-        # refresh the screen
-        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-            win.flip()
-    
-    # --- Ending Routine "showStimuli" ---
-    for thisComponent in showStimuli.components:
-        if hasattr(thisComponent, "setAutoDraw"):
-            thisComponent.setAutoDraw(False)
-    # store stop times for showStimuli
-    showStimuli.tStop = globalClock.getTime(format='float')
-    showStimuli.tStopRefresh = tThisFlipGlobal
-    thisExp.addData('showStimuli.stopped', showStimuli.tStop)
-    thisExp.nextEntry()
-    # the Routine "showStimuli" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset()
-    
-    # --- Prepare to start Routine "retrocue" ---
-    # create an object to store info about Routine retrocue
-    retrocue = data.Routine(
-        name='retrocue',
-        components=[],
-    )
-    retrocue.status = NOT_STARTED
-    continueRoutine = True
-    # update component parameters for each repeat
-    # Run 'Begin Routine' code from retrocue
-    
-    # Randomly set retrocue direction (left or right)
-    retrocue_direction = random.choice([0, 180])  # 0 = right, 180 = left
-    retrocueMask.ori = retrocue_direction
-    
-    cueCircColor.colorSpace = 'rgb255'
-    cueCircColor.color = cueCorThis
-    cueCircColor.setAutoDraw(True)
-    retrocueMask.setAutoDraw(True)
-    
-    # Update window to draw the stimuli
-    win.flip()
-    
-    # Wait to make sure the image stays on screen
-    core.wait(2.0)
-    
-    # Turn off auto-drawing after display time
-    retrocueMask.setAutoDraw(False)
-    
-    # Update window to clear the stimuli
-    win.flip()
-    
-    clock.reset()
-    kb.clock.reset()
-    kb.clearEvents()
-    # store start times for retrocue
-    retrocue.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
-    retrocue.tStart = globalClock.getTime(format='float')
-    retrocue.status = STARTED
-    thisExp.addData('retrocue.started', retrocue.tStart)
-    retrocue.maxDuration = None
-    # keep track of which components have finished
-    retrocueComponents = retrocue.components
-    for thisComponent in retrocue.components:
-        thisComponent.tStart = None
-        thisComponent.tStop = None
-        thisComponent.tStartRefresh = None
-        thisComponent.tStopRefresh = None
-        if hasattr(thisComponent, 'status'):
-            thisComponent.status = NOT_STARTED
-    # reset timers
-    t = 0
-    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-    frameN = -1
-    
-    # --- Run Routine "retrocue" ---
-    retrocue.forceEnded = routineForceEnded = not continueRoutine
-    while continueRoutine:
-        # get current time
-        t = routineTimer.getTime()
-        tThisFlip = win.getFutureFlipTime(clock=routineTimer)
-        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-        # update/draw components on each frame
-        
-        # check for quit (typically the Esc key)
-        if defaultKeyboard.getKeys(keyList=["escape"]):
-            thisExp.status = FINISHED
-        if thisExp.status == FINISHED or endExpNow:
-            endExperiment(thisExp, win=win)
-            return
-        # pause experiment here if requested
-        if thisExp.status == PAUSED:
-            pauseExperiment(
-                thisExp=thisExp, 
-                win=win, 
-                timers=[routineTimer], 
-                playbackComponents=[]
-            )
-            # skip the frame we paused on
-            continue
-        
-        # check if all components have finished
-        if not continueRoutine:  # a component has requested a forced-end of Routine
-            retrocue.forceEnded = routineForceEnded = True
-            break
-        continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in retrocue.components:
-            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                continueRoutine = True
-                break  # at least one component has not yet finished
-        
-        # refresh the screen
-        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-            win.flip()
-    
-    # --- Ending Routine "retrocue" ---
-    for thisComponent in retrocue.components:
-        if hasattr(thisComponent, "setAutoDraw"):
-            thisComponent.setAutoDraw(False)
-    # store stop times for retrocue
-    retrocue.tStop = globalClock.getTime(format='float')
-    retrocue.tStopRefresh = tThisFlipGlobal
-    thisExp.addData('retrocue.stopped', retrocue.tStop)
-    thisExp.nextEntry()
-    # the Routine "retrocue" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset()
-    
-    # --- Prepare to start Routine "testingSession" ---
-    # create an object to store info about Routine testingSession
-    testingSession = data.Routine(
-        name='testingSession',
-        components=[],
-    )
-    testingSession.status = NOT_STARTED
-    continueRoutine = True
-    # update component parameters for each repeat
-    # Run 'Begin Routine' code from mouseWheel
-    polygon = visual.Polygon(win, edges=6, size=(0.5, 0.5), fillColor='blue', lineColor='white')
-    
-    while True:
-        # Get scroll input
-        wheel = event.mouseWheelRel[1]
-    
-        if wheel > 0:
-            new_size = polygon.size[0] + 0.1
-            polygon.size = (new_size, new_size)
-        elif wheel < 0:
-            new_size = max(0.1, polygon.size[0] - 0.1)
-            polygon.size = (new_size, new_size)
-    
-        polygon.draw()
         win.flip()
-    
-        # Close if escape key pressed
-        if 'escape' in event.getKeys():
-            break
-    
-        core.wait(0.01)
-    
-    win.close()
-    core.quit()
-    # store start times for testingSession
-    testingSession.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
-    testingSession.tStart = globalClock.getTime(format='float')
-    testingSession.status = STARTED
-    thisExp.addData('testingSession.started', testingSession.tStart)
-    testingSession.maxDuration = None
-    # keep track of which components have finished
-    testingSessionComponents = testingSession.components
-    for thisComponent in testingSession.components:
-        thisComponent.tStart = None
-        thisComponent.tStop = None
-        thisComponent.tStartRefresh = None
-        thisComponent.tStopRefresh = None
-        if hasattr(thisComponent, 'status'):
-            thisComponent.status = NOT_STARTED
-    # reset timers
-    t = 0
-    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-    frameN = -1
-    
-    # --- Run Routine "testingSession" ---
-    testingSession.forceEnded = routineForceEnded = not continueRoutine
-    while continueRoutine:
-        # get current time
-        t = routineTimer.getTime()
-        tThisFlip = win.getFutureFlipTime(clock=routineTimer)
-        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-        # update/draw components on each frame
         
-        # check for quit (typically the Esc key)
-        if defaultKeyboard.getKeys(keyList=["escape"]):
-            thisExp.status = FINISHED
-        if thisExp.status == FINISHED or endExpNow:
-            endExperiment(thisExp, win=win)
-            return
-        # pause experiment here if requested
-        if thisExp.status == PAUSED:
-            pauseExperiment(
-                thisExp=thisExp, 
-                win=win, 
-                timers=[routineTimer], 
-                playbackComponents=[]
-            )
-            # skip the frame we paused on
-            continue
+        core.wait(0.5)
+        # store start times for fixationCircle
+        fixationCircle.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
+        fixationCircle.tStart = globalClock.getTime(format='float')
+        fixationCircle.status = STARTED
+        thisExp.addData('fixationCircle.started', fixationCircle.tStart)
+        fixationCircle.maxDuration = None
+        # keep track of which components have finished
+        fixationCircleComponents = fixationCircle.components
+        for thisComponent in fixationCircle.components:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        frameN = -1
         
-        # check if all components have finished
-        if not continueRoutine:  # a component has requested a forced-end of Routine
-            testingSession.forceEnded = routineForceEnded = True
-            break
-        continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in testingSession.components:
-            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                continueRoutine = True
-                break  # at least one component has not yet finished
+        # --- Run Routine "fixationCircle" ---
+        # if trial has changed, end Routine now
+        if isinstance(trials, data.TrialHandler2) and thisTrial.thisN != trials.thisTrial.thisN:
+            continueRoutine = False
+        fixationCircle.forceEnded = routineForceEnded = not continueRoutine
+        while continueRoutine:
+            # get current time
+            t = routineTimer.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=routineTimer)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            
+            # check for quit (typically the Esc key)
+            if defaultKeyboard.getKeys(keyList=["escape"]):
+                thisExp.status = FINISHED
+            if thisExp.status == FINISHED or endExpNow:
+                endExperiment(thisExp, win=win)
+                return
+            # pause experiment here if requested
+            if thisExp.status == PAUSED:
+                pauseExperiment(
+                    thisExp=thisExp, 
+                    win=win, 
+                    timers=[routineTimer], 
+                    playbackComponents=[]
+                )
+                # skip the frame we paused on
+                continue
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                fixationCircle.forceEnded = routineForceEnded = True
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in fixationCircle.components:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
         
-        # refresh the screen
-        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-            win.flip()
+        # --- Ending Routine "fixationCircle" ---
+        for thisComponent in fixationCircle.components:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        # store stop times for fixationCircle
+        fixationCircle.tStop = globalClock.getTime(format='float')
+        fixationCircle.tStopRefresh = tThisFlipGlobal
+        thisExp.addData('fixationCircle.stopped', fixationCircle.tStop)
+        # Run 'End Routine' code from fixationCir
+        cueCircColor.setAutoDraw(False)
+        fixCircMask.setAutoDraw(False)
+        win.flip()
+        
+        # the Routine "fixationCircle" was not non-slip safe, so reset the non-slip timer
+        routineTimer.reset()
+        
+        # --- Prepare to start Routine "retrocue" ---
+        # create an object to store info about Routine retrocue
+        retrocue = data.Routine(
+            name='retrocue',
+            components=[],
+        )
+        retrocue.status = NOT_STARTED
+        continueRoutine = True
+        # update component parameters for each repeat
+        # Run 'Begin Routine' code from retrocue
+        
+        retrocueMask = visual.ImageStim(win, image=retrocuePath, size=fixSize) 
+        # Randomly set retrocue direction (left or right)
+        retrocue_direction = random.choice([0, 180])  # 0 = right, 180 = left
+        retrocueMask.ori = retrocue_direction
+        
+        
+        cueCircColor.colorSpace = 'rgb255'
+        cueCircColor.color = cueCorThis
+        cueCircColor.setAutoDraw(True)
+        retrocueMask.setAutoDraw(True)
+        
+        # Update window to draw the stimuli
+        win.flip()
+        
+        # Wait to make sure the image stays on screen
+        core.wait(1.0)
+        
+        # Turn off auto-drawing after display time
+        retrocueMask.setAutoDraw(False)
+        
+        
+        # store start times for retrocue
+        retrocue.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
+        retrocue.tStart = globalClock.getTime(format='float')
+        retrocue.status = STARTED
+        thisExp.addData('retrocue.started', retrocue.tStart)
+        retrocue.maxDuration = None
+        # keep track of which components have finished
+        retrocueComponents = retrocue.components
+        for thisComponent in retrocue.components:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        frameN = -1
+        
+        # --- Run Routine "retrocue" ---
+        # if trial has changed, end Routine now
+        if isinstance(trials, data.TrialHandler2) and thisTrial.thisN != trials.thisTrial.thisN:
+            continueRoutine = False
+        retrocue.forceEnded = routineForceEnded = not continueRoutine
+        while continueRoutine:
+            # get current time
+            t = routineTimer.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=routineTimer)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            
+            # check for quit (typically the Esc key)
+            if defaultKeyboard.getKeys(keyList=["escape"]):
+                thisExp.status = FINISHED
+            if thisExp.status == FINISHED or endExpNow:
+                endExperiment(thisExp, win=win)
+                return
+            # pause experiment here if requested
+            if thisExp.status == PAUSED:
+                pauseExperiment(
+                    thisExp=thisExp, 
+                    win=win, 
+                    timers=[routineTimer], 
+                    playbackComponents=[]
+                )
+                # skip the frame we paused on
+                continue
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                retrocue.forceEnded = routineForceEnded = True
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in retrocue.components:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # --- Ending Routine "retrocue" ---
+        for thisComponent in retrocue.components:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        # store stop times for retrocue
+        retrocue.tStop = globalClock.getTime(format='float')
+        retrocue.tStopRefresh = tThisFlipGlobal
+        thisExp.addData('retrocue.stopped', retrocue.tStop)
+        # Run 'End Routine' code from retrocue
+        cueCircColor.setAutoDraw(False)
+        fixCircMask.setAutoDraw(False)
+        win.flip()
+        
+        clock.reset()
+        kb.clock.reset()
+        kb.clearEvents()
+        
+        
+        trlCnt += 1
+        # the Routine "retrocue" was not non-slip safe, so reset the non-slip timer
+        routineTimer.reset()
+        thisExp.nextEntry()
+        
+    # completed 10.0 repeats of 'trials'
     
-    # --- Ending Routine "testingSession" ---
-    for thisComponent in testingSession.components:
-        if hasattr(thisComponent, "setAutoDraw"):
-            thisComponent.setAutoDraw(False)
-    # store stop times for testingSession
-    testingSession.tStop = globalClock.getTime(format='float')
-    testingSession.tStopRefresh = tThisFlipGlobal
-    thisExp.addData('testingSession.stopped', testingSession.tStop)
-    thisExp.nextEntry()
-    # the Routine "testingSession" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset()
+    if thisSession is not None:
+        # if running in a Session with a Liaison client, send data up to now
+        thisSession.sendExperimentData()
     
     # mark experiment as finished
     endExperiment(thisExp, win=win)

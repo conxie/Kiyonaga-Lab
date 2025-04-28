@@ -1,0 +1,63 @@
+4.1494 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+4.1502 	INFO 	Loaded monitor calibration from ['2025_03_31 21:04']
+4.4222 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000024836270EB0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000024836270E50>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000248363520E0>, multiSample=False, name='window1', numSamples=2, pos=[560.0, 300.0], screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+4.4223 	EXP 	window1: backgroundImage = ''
+4.4223 	EXP 	window1: backgroundFit = 'none'
+4.4301 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.4307 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.4312 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.4319 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.4325 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.4329 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.4334 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.4341 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.4345 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.4347 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.4352 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.4358 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.4362 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.4367 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.4372 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.4377 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.4382 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.4385 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.4388 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.4395 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.4398 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.4401 	DEBUG 	Uploading Texture Font fontname to graphics card
+4.4419 	DEBUG 	Upload of Texture Font fontname complete
+4.4476 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.4484 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.4490 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.4492 	DEBUG 	Uploading Texture Font fontname to graphics card
+4.4504 	DEBUG 	Upload of Texture Font fontname complete
+4.4522 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+4.4522 	EXP 	window1: recordFrameIntervals = False
+4.6260 	EXP 	window1: recordFrameIntervals = True
+4.8092 	EXP 	Screen (0) actual frame rate measured at 60.03Hz
+4.8093 	EXP 	window1: recordFrameIntervals = False
+4.8133 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8137 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8143 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8150 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8157 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8163 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8166 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8172 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8179 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8186 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8188 	DEBUG 	Uploading Texture Font fontname to graphics card
+4.8205 	DEBUG 	Upload of Texture Font fontname complete
+4.8302 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+7.0200 	INFO 	keyboard.Keyboard is using iohub backend.
+7.0200 	EXP 	KeoghRevisedRetrocueTask: status = STARTED
+7.0202 	INFO 	keyboard.Keyboard is using iohub backend.
+7.0231 	EXP 	Created unnamed Polygon = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb255', contrast=None, depth=0, draggable=False, fillColor=array([128, 115,  96]), fillColorSpace='rgb255', fillRGB=array([ 0.00392157, -0.09803922, -0.24705882]), interpolate=True, lineColor=array([255., 255., 255.]), lineColorSpace='rgb255', lineRGB=array([1, 1, 1]), lineWidth=1.5, name='unnamed Polygon', opacity=1, ori=45.0, pos=array([0., 0.]), size=array([0.06, 0.06]), units='height', vertices=ndarray(...), win=Window(...))
+7.0247 	EXP 	Created FixCross = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=False, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1.0, name='FixCross', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.07, 0.07]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0337 	EXP 	FixCross: autoDraw = True
+3.0338 	EXP 	FixCross: autoDraw = False
+3.0338 	EXP 	FixCross: autoDraw = False
+3.0354 	EXP 	KeoghRevisedRetrocueTask: status = STOPPED
+3.0429 	INFO 	saved data to 'C:\\Users\\cocon\\OneDrive\\Documents\\GitHub\\Kiyonaga-Lab\\PNR Project\\Connie_Code\\data/396412_KeoghRevisedRetrocueTask_2025-04-28_14h57.18.191.csv'
+3.0433 	INFO 	saved data to C:\Users\cocon\OneDrive\Documents\GitHub\Kiyonaga-Lab\PNR Project\Connie_Code\data/396412_KeoghRevisedRetrocueTask_2025-04-28_14h57.18.191.psydat
+3.5021 	DEBUG 	Saving data for KeoghRevisedRetrocueTask ExperimentHandler
