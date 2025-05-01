@@ -1,0 +1,13 @@
+leftImagePath,rightImagePath,leftCategory,rightCategory,leftDistance,rightDistance,cuedItem
+stimuli/cylinders\woodDownCylinder_Far.jpg,stimuli/cylinders\redDownCylinderNear_Far.jpg,cylinder,cylinder,Far,Far,right
+stimuli/cylinders\cylindersilver_Near.jpg,stimuli/cylinders\cylinderpink_Near.jpg,cylinder,cylinder,Near,Near,left
+stimuli/cylinders\cubeandcylinder_Near.jpg,stimuli/cylinders\cylinderpinkcopy_Near.jpg,cylinder,cylinder,Near,Near,left
+stimuli/cubes\pexels-shvetsa-4971990_Middle.jpg,stimuli/cubes\woodenCube_Middle.jpg,cube,cube,Middle,Middle,right
+stimuli/cylinders\redcylinder_Far.jpg,stimuli/cylinders\woodUprightCylinder_Far.jpg,cylinder,cylinder,Far,Far,right
+stimuli/cubes\concreteblock_Near.jpg,stimuli/cubes\alphabetblock_Near.jpg,cube,cube,Near,Near,left
+stimuli/cubes\greenCube_Far.jpg,stimuli/cubes\greeneggandcube_Far.jpg,cube,cube,Far,Far,left
+stimuli/cylinders\goldUprightCylinder_Middle.jpg,stimuli/cylinders\purple cylinders_Middle.jpg,cylinder,cylinder,Middle,Middle,left
+stimuli/cubes\woodenCube copy_Middle.jpg,stimuli/cubes\minecraftblock_Middle.jpg,cube,cube,Middle,Middle,left
+stimuli/cubes\grayCube_Far.jpg,stimuli/cubes\die_Far.jpg,cube,cube,Far,Far,right
+stimuli/cylinders\lightgrayUprightCylinder_Middle.jpg,stimuli/cylinders\grayUprightCylinder_Middle.jpg,cylinder,cylinder,Middle,Middle,right
+stimuli/cubes\cubeCeptionCube_Near.jpg,stimuli/cubes\blackCube_Near.jpg,cube,cube,Near,Near,right
