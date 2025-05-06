@@ -1,0 +1,59 @@
+16.8292 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+16.8501 	INFO 	Loaded monitor calibration from ['2025_03_31 21:04']
+18.0087 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002250B11FCD0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002250B11D5D0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002250B1CE530>, multiSample=False, name='window1', numSamples=2, pos=[560.0, 300.0], screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+18.0087 	EXP 	window1: backgroundImage = ''
+18.0088 	EXP 	window1: backgroundFit = 'none'
+18.0261 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.0270 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.0276 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.0283 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.0290 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.0294 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.0300 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.0307 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.0310 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.0312 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.0318 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.0324 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.0329 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.0334 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.0340 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.0346 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.0352 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.0360 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.0367 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.0377 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.0387 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.0398 	DEBUG 	Uploading Texture Font fontname to graphics card
+18.0417 	DEBUG 	Upload of Texture Font fontname complete
+18.0484 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.0493 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.0500 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.0503 	DEBUG 	Uploading Texture Font fontname to graphics card
+18.0513 	DEBUG 	Upload of Texture Font fontname complete
+18.0543 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+18.0543 	EXP 	window1: recordFrameIntervals = False
+18.2249 	EXP 	window1: recordFrameIntervals = True
+18.3578 	WARNING 	t of last frame was 66.05ms (=1/15)
+18.5250 	EXP 	Screen (0) actual frame rate measured at 59.96Hz
+18.5251 	EXP 	window1: recordFrameIntervals = False
+18.5298 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.5727 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.5739 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.5747 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.5755 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.5763 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.5767 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.5774 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.5781 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.5788 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.5792 	DEBUG 	Uploading Texture Font fontname to graphics card
+18.5804 	DEBUG 	Upload of Texture Font fontname complete
+18.6246 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+22.0922 	INFO 	keyboard.Keyboard is using iohub backend.
+22.0922 	EXP 	KeoghRevisedRetrocueTask: status = STARTED
+22.1560 	INFO 	keyboard.Keyboard is using iohub backend.
+0.0234 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+0.0535 	DEBUG 	Saving data for KeoghRevisedRetrocueTask ExperimentHandler
+0.0548 	INFO 	saved data to C:\Users\cocon\OneDrive\Documents\GitHub\Kiyonaga-Lab\PNR Project\data/462908_KeoghRevisedRetrocueTask_2025-05-05_17h27.38.222.psydat
+0.0557 	INFO 	saved data to 'C:\\Users\\cocon\\OneDrive\\Documents\\GitHub\\Kiyonaga-Lab\\PNR Project\\data/462908_KeoghRevisedRetrocueTask_2025-05-05_17h27.38.222.csv'

@@ -1,0 +1,196 @@
+5.3118 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+5.3129 	INFO 	Loaded monitor calibration from ['2025_03_31 21:04']
+5.6678 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000028B2DE0EF50>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000028B2DE0EEF0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000028B2DECCC70>, multiSample=False, name='window1', numSamples=2, pos=[560.0, 300.0], screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.6680 	EXP 	window1: backgroundImage = ''
+5.6681 	EXP 	window1: backgroundFit = 'none'
+5.6762 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6769 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6774 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6782 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6791 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6795 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6801 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6808 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6811 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6814 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6819 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6825 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6830 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6836 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6841 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6847 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6852 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6856 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6860 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6867 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6871 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6873 	DEBUG 	Uploading Texture Font fontname to graphics card
+5.6884 	DEBUG 	Upload of Texture Font fontname complete
+5.6932 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6943 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6956 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6959 	DEBUG 	Uploading Texture Font fontname to graphics card
+5.6966 	DEBUG 	Upload of Texture Font fontname complete
+5.6991 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+5.6991 	EXP 	window1: recordFrameIntervals = False
+5.8657 	EXP 	window1: recordFrameIntervals = True
+6.0488 	EXP 	Screen (0) actual frame rate measured at 59.91Hz
+6.0488 	EXP 	window1: recordFrameIntervals = False
+6.0528 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.0532 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.0539 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.0549 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.0556 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.0564 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.0568 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.0575 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.0583 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.0590 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.0592 	DEBUG 	Uploading Texture Font fontname to graphics card
+6.0598 	DEBUG 	Upload of Texture Font fontname complete
+6.0712 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+8.8617 	INFO 	keyboard.Keyboard is using iohub backend.
+8.8619 	EXP 	KeoghRevisedRetrocueTask: status = STARTED
+8.8834 	INFO 	keyboard.Keyboard is using iohub backend.
+0.0323 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='visualObj/fixCirc.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.12, 0.12]), texRes=128, units='height', win=Window(...))
+0.0437 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='visualObj/retrocue.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.12, 0.12]), texRes=128, units='height', win=Window(...))
+0.0470 	EXP 	Created unnamed Polygon = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb255', contrast=None, depth=0, draggable=False, fillColor=array([128, 115,  96]), fillColorSpace='rgb255', fillRGB=array([ 0.00392157, -0.09803922, -0.24705882]), interpolate=True, lineColor=array([255., 255., 255.]), lineColorSpace='rgb255', lineRGB=array([1, 1, 1]), lineWidth=1.5, name='unnamed Polygon', opacity=1, ori=45.0, pos=array([0., 0.]), size=array([0.06, 0.06]), units='height', vertices=ndarray(...), win=Window(...))
+0.0480 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=None, interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='height', win=Window(...))
+0.0486 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=None, interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='height', win=Window(...))
+0.0514 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='visualObj/noiseGauss50.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.42666667, 0.42666667]), texRes=128, units='height', win=Window(...))
+0.0539 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='visualObj/noiseGauss50.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.42666667, 0.42666667]), texRes=128, units='height', win=Window(...))
+0.0546 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=None, interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.18, 0.18]), texRes=128, units='height', win=Window(...))
+0.0553 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=None, interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.18, 0.18]), texRes=128, units='height', win=Window(...))
+0.0560 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=None, interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.18, 0.18]), texRes=128, units='height', win=Window(...))
+0.0566 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=None, interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.18, 0.18]), texRes=128, units='height', win=Window(...))
+0.0572 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=None, interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.18, 0.18]), texRes=128, units='height', win=Window(...))
+0.0578 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=None, interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.18, 0.18]), texRes=128, units='height', win=Window(...))
+0.0585 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=None, interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='height', win=Window(...))
+0.1307 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+0.1326 	EXP 	Created instrTxt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='instrTxt', opacity=0.6, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+0.1334 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+0.1339 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+0.1351 	INFO 	Keyboard events cleared
+0.1503 	EXP 	unnamed Polygon: fillColor = [128, 115, 96]
+0.1503 	EXP 	unnamed Polygon: autoDraw = True
+0.1503 	EXP 	unnamed ImageStim: autoDraw = True
+0.1650 	EXP 	unnamed Polygon: autoDraw = False
+0.1650 	EXP 	unnamed ImageStim: autoDraw = False
+0.1813 	EXP 	unnamed Polygon: autoDraw = False
+0.1813 	EXP 	unnamed ImageStim: autoDraw = False
+0.1833 	INFO 	Keyboard events cleared
+0.1834 	EXP 	New trial (rep=1, index=0): <Trial 1 (0 in rep 1) data={'thisN': 1, 'thisTrialN': 0, 'thisRepN': 1}>
+0.1842 	INFO 	Keyboard events cleared
+0.1978 	EXP 	unnamed Polygon: fillColor = [128, 115, 96]
+0.1978 	EXP 	unnamed Polygon: autoDraw = True
+0.1978 	EXP 	unnamed ImageStim: autoDraw = True
+0.2147 	EXP 	unnamed Polygon: autoDraw = False
+0.2147 	EXP 	unnamed ImageStim: autoDraw = False
+0.2315 	EXP 	unnamed Polygon: autoDraw = False
+0.2315 	EXP 	unnamed ImageStim: autoDraw = False
+0.2335 	INFO 	Keyboard events cleared
+0.2336 	EXP 	New trial (rep=2, index=0): <Trial 2 (0 in rep 2) data={'thisN': 2, 'thisTrialN': 0, 'thisRepN': 2}>
+0.2349 	INFO 	Keyboard events cleared
+0.2481 	EXP 	unnamed Polygon: fillColor = [128, 115, 96]
+0.2481 	EXP 	unnamed Polygon: autoDraw = True
+0.2481 	EXP 	unnamed ImageStim: autoDraw = True
+0.2653 	EXP 	unnamed Polygon: autoDraw = False
+0.2653 	EXP 	unnamed ImageStim: autoDraw = False
+0.2812 	EXP 	unnamed Polygon: autoDraw = False
+0.2812 	EXP 	unnamed ImageStim: autoDraw = False
+0.2831 	INFO 	Keyboard events cleared
+0.2832 	EXP 	New trial (rep=3, index=0): <Trial 3 (0 in rep 3) data={'thisN': 3, 'thisTrialN': 0, 'thisRepN': 3}>
+0.2840 	INFO 	Keyboard events cleared
+0.2977 	EXP 	unnamed Polygon: fillColor = [128, 115, 96]
+0.2977 	EXP 	unnamed Polygon: autoDraw = True
+0.2977 	EXP 	unnamed ImageStim: autoDraw = True
+0.3148 	EXP 	unnamed Polygon: autoDraw = False
+0.3148 	EXP 	unnamed ImageStim: autoDraw = False
+0.3314 	EXP 	unnamed Polygon: autoDraw = False
+0.3314 	EXP 	unnamed ImageStim: autoDraw = False
+0.3335 	INFO 	Keyboard events cleared
+0.3336 	EXP 	New trial (rep=4, index=0): <Trial 4 (0 in rep 4) data={'thisN': 4, 'thisTrialN': 0, 'thisRepN': 4}>
+0.3344 	INFO 	Keyboard events cleared
+0.3479 	EXP 	unnamed Polygon: fillColor = [128, 115, 96]
+0.3479 	EXP 	unnamed Polygon: autoDraw = True
+0.3479 	EXP 	unnamed ImageStim: autoDraw = True
+0.3647 	EXP 	unnamed Polygon: autoDraw = False
+0.3647 	EXP 	unnamed ImageStim: autoDraw = False
+0.3815 	EXP 	unnamed Polygon: autoDraw = False
+0.3815 	EXP 	unnamed ImageStim: autoDraw = False
+0.3834 	INFO 	Keyboard events cleared
+0.3835 	EXP 	New trial (rep=5, index=0): <Trial 5 (0 in rep 5) data={'thisN': 5, 'thisTrialN': 0, 'thisRepN': 5}>
+0.3841 	INFO 	Keyboard events cleared
+0.3978 	EXP 	unnamed Polygon: fillColor = [128, 115, 96]
+0.3978 	EXP 	unnamed Polygon: autoDraw = True
+0.3978 	EXP 	unnamed ImageStim: autoDraw = True
+0.4149 	EXP 	unnamed Polygon: autoDraw = False
+0.4149 	EXP 	unnamed ImageStim: autoDraw = False
+0.4311 	EXP 	unnamed Polygon: autoDraw = False
+0.4311 	EXP 	unnamed ImageStim: autoDraw = False
+0.4329 	INFO 	Keyboard events cleared
+0.4329 	EXP 	New trial (rep=6, index=0): <Trial 6 (0 in rep 6) data={'thisN': 6, 'thisTrialN': 0, 'thisRepN': 6}>
+0.4336 	INFO 	Keyboard events cleared
+0.4482 	EXP 	unnamed Polygon: fillColor = [128, 115, 96]
+0.4482 	EXP 	unnamed Polygon: autoDraw = True
+0.4482 	EXP 	unnamed ImageStim: autoDraw = True
+0.4648 	EXP 	unnamed Polygon: autoDraw = False
+0.4648 	EXP 	unnamed ImageStim: autoDraw = False
+0.4820 	EXP 	unnamed Polygon: autoDraw = False
+0.4820 	EXP 	unnamed ImageStim: autoDraw = False
+0.4839 	INFO 	Keyboard events cleared
+0.4840 	EXP 	New trial (rep=7, index=0): <Trial 7 (0 in rep 7) data={'thisN': 7, 'thisTrialN': 0, 'thisRepN': 7}>
+0.4845 	INFO 	Keyboard events cleared
+0.4978 	EXP 	unnamed Polygon: fillColor = [128, 115, 96]
+0.4978 	EXP 	unnamed Polygon: autoDraw = True
+0.4978 	EXP 	unnamed ImageStim: autoDraw = True
+0.5143 	EXP 	unnamed Polygon: autoDraw = False
+0.5143 	EXP 	unnamed ImageStim: autoDraw = False
+0.5312 	EXP 	unnamed Polygon: autoDraw = False
+0.5312 	EXP 	unnamed ImageStim: autoDraw = False
+0.5337 	INFO 	Keyboard events cleared
+0.5338 	EXP 	New trial (rep=8, index=0): <Trial 8 (0 in rep 8) data={'thisN': 8, 'thisTrialN': 0, 'thisRepN': 8}>
+0.5344 	INFO 	Keyboard events cleared
+0.5484 	EXP 	unnamed Polygon: fillColor = [128, 115, 96]
+0.5484 	EXP 	unnamed Polygon: autoDraw = True
+0.5484 	EXP 	unnamed ImageStim: autoDraw = True
+0.5644 	EXP 	unnamed Polygon: autoDraw = False
+0.5644 	EXP 	unnamed ImageStim: autoDraw = False
+0.5811 	EXP 	unnamed Polygon: autoDraw = False
+0.5811 	EXP 	unnamed ImageStim: autoDraw = False
+0.5829 	INFO 	Keyboard events cleared
+0.5830 	EXP 	New trial (rep=9, index=0): <Trial 9 (0 in rep 9) data={'thisN': 9, 'thisTrialN': 0, 'thisRepN': 9}>
+0.5837 	INFO 	Keyboard events cleared
+0.5981 	EXP 	unnamed Polygon: fillColor = [128, 115, 96]
+0.5981 	EXP 	unnamed Polygon: autoDraw = True
+0.5981 	EXP 	unnamed ImageStim: autoDraw = True
+0.6157 	EXP 	unnamed Polygon: autoDraw = False
+0.6157 	EXP 	unnamed ImageStim: autoDraw = False
+0.6314 	EXP 	unnamed Polygon: autoDraw = False
+0.6314 	EXP 	unnamed ImageStim: autoDraw = False
+0.6336 	INFO 	Keyboard events cleared
+0.6337 	EXP 	New trial (rep=10, index=0): <Trial 10 (0 in rep 10) data={'thisN': 10, 'thisTrialN': 0, 'thisRepN': 10}>
+0.6343 	INFO 	Keyboard events cleared
+0.6477 	EXP 	unnamed Polygon: fillColor = [128, 115, 96]
+0.6477 	EXP 	unnamed Polygon: autoDraw = True
+0.6477 	EXP 	unnamed ImageStim: autoDraw = True
+0.6647 	EXP 	unnamed Polygon: autoDraw = False
+0.6647 	EXP 	unnamed ImageStim: autoDraw = False
+0.6821 	EXP 	unnamed Polygon: autoDraw = False
+0.6821 	EXP 	unnamed ImageStim: autoDraw = False
+0.6840 	INFO 	Keyboard events cleared
+0.6841 	EXP 	New trial (rep=11, index=0): <Trial 11 (0 in rep 11) data={'thisN': 11, 'thisTrialN': 0, 'thisRepN': 11}>
+0.6847 	INFO 	Keyboard events cleared
+0.6983 	EXP 	unnamed Polygon: fillColor = [128, 115, 96]
+0.6983 	EXP 	unnamed Polygon: autoDraw = True
+0.6983 	EXP 	unnamed ImageStim: autoDraw = True
+0.7148 	EXP 	unnamed Polygon: autoDraw = False
+0.7148 	EXP 	unnamed ImageStim: autoDraw = False
+0.7316 	EXP 	unnamed Polygon: autoDraw = False
+0.7316 	EXP 	unnamed ImageStim: autoDraw = False
+0.7339 	INFO 	Keyboard events cleared
+0.7351 	EXP 	New trial (rep=1, index=0): <Trial 1 (0 in rep 1) data={'thisN': 1, 'thisTrialN': 0, 'thisRepN': 1}>
+0.7357 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+0.8063 	DEBUG 	Saving data for KeoghRevisedRetrocueTask ExperimentHandler
+0.8072 	INFO 	saved data to C:\Users\cocon\OneDrive\Documents\GitHub\Kiyonaga-Lab\PNR Project\data/646080_KeoghRevisedRetrocueTask_2025-05-05_17h44.55.976.psydat
+0.8081 	INFO 	saved data to 'C:\\Users\\cocon\\OneDrive\\Documents\\GitHub\\Kiyonaga-Lab\\PNR Project\\data/646080_KeoghRevisedRetrocueTask_2025-05-05_17h44.55.976.csv'

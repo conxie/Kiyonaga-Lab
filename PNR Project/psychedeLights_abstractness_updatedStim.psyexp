@@ -1,0 +1,1045 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2023.2.3">
+  <Settings>
+    <Param val="use prefs" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="use prefs" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="" valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant': '', 'session': '001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="fileList" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="[1920, 1080]" valType="code" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$[0,0,0]" valType="str" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="psychedeLights_temp" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="error" valType="code" updates="None" name="logging level"/>
+    <Param val="('MIDDLE_BUTTON',)" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="neon.local" valType="str" updates="None" name="plCompanionAddress"/>
+    <Param val="scene_camera.json" valType="file" updates="None" name="plCompanionCameraCalibration"/>
+    <Param val="8080" valType="num" updates="None" name="plCompanionPort"/>
+    <Param val="True" valType="bool" updates="None" name="plCompanionRecordingEnabled"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="fixationRest">
+      <RoutineSettingsComponent name="fixationRest" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="fixationRest" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="drawFixation" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="imageFilePath = &quot;C:/Users/ipmmz/Desktop/psychedeLights_psychopy/&quot;;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="cueCircColor.setAutoDraw(True)&amp;#10;fixCircMask.setAutoDraw(True)&amp;#10;&amp;#10;clock.reset()&amp;#10;kb.clock.reset()&amp;#10;kb.clearEvents()&amp;#10;&amp;#10;win.flip()" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="continuing = True&amp;#10;while clock.getTime() &lt;= fixationT:&amp;#10;    key = kb.getKeys(['space', 'escape'], waitRelease=False)&amp;#10;    if 'escape' in key:&amp;#10;          core.quit()" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="drawFixation" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <CodeComponent name="elRecord_fixation" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="this_epoch = &quot;pretrial&quot;;&amp;#10;aaa = core.monotonicClock.getTime;&amp;#10;psychoJS.experiment.addData(&quot;fixation_rest_start&quot;, aaa().toString());&amp;#10;el_tracker.startRecording(1, 1, 1, 1);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="this_epoch = 'fixation'&amp;#10;aaa = core.monotonicClock.getTime&amp;#10;thisExp.addData('fixationStart',str(aaa()))&amp;#10;if eyetracking == 1:&amp;#10;    # get a reference to the currently active EyeLink connection&amp;#10;    el_tracker = pylink.getEYELINK()&amp;#10;&amp;#10;    try:&amp;#10;        #start recording&amp;#10;        el_tracker.startRecording(1, 1, 1, 1) &amp;#10;        #send message to tracker to count trial number&amp;#10;        el_tracker.sendMessage('TRIALID %s' % str(trlId))&amp;#10;        el_tracker.sendMessage('fixationRest')&amp;#10;    except RuntimeError as error:&amp;#10;        print(&quot;ERROR:&quot;, error)&amp;#10;        abort_trial()&amp;#10;&amp;#10;    &amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="aaa = core.monotonicClock.getTime&amp;#10;thisExp.addData('fixationEnd',str(aaa()))&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="elRecord_fixation" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="stim">
+      <RoutineSettingsComponent name="stim" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="stim" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="drawVisualStim" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="imLeft.setImage(df['leftImagePath'][trlCntTotal].replace(os.sep, &quot;/&quot;))&amp;#10;imRight.setImage(df['rightImagePath'][trlCntTotal].replace(os.sep, &quot;/&quot;),)&amp;#10;&amp;#10;clock.reset()&amp;#10;kb.clock.reset()&amp;#10;kb.clearEvents()&amp;#10;&amp;#10;imLeft.setAutoDraw(True)&amp;#10;imRight.setAutoDraw(True)&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;win.flip()" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="continuing = True&amp;#10;while clock.getTime() &lt;= stimT:&amp;#10;    pass" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="imLeft.setAutoDraw(False)&amp;#10;imRight.setAutoDraw(False)&amp;#10;&amp;#10;#add other info&amp;#10;thisExp.addData('stimT', stimT)" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="drawVisualStim" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <CodeComponent name="elRecord_stim" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="aaa = core.monotonicClock.getTime;&amp;#10;psychoJS.experiment.addData(&quot;memory_item_start&quot;, aaa().toString());&amp;#10;this_epoch = &quot;stim&quot;;&amp;#10;stim_time = 0.25;&amp;#10;if ((slow_practice &lt; 2)) {&amp;#10;    stim_time = 1.5;&amp;#10;}&amp;#10;el_tracker.sendMessage(&quot;memory_item_start&quot;);&amp;#10;el_tracker.startRecording(1, 1, 1, 1);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="this_epoch = 'stim'&amp;#10;aaa = core.monotonicClock.getTime&amp;#10;thisExp.addData(this_epoch+'Start',str(aaa()))&amp;#10;&amp;#10;if eyetracking == 1:&amp;#10;    el_tracker.sendMessage(this_epoch)&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="aaa = core.monotonicClock.getTime&amp;#10;thisExp.addData(this_epoch+'End',str(aaa()))&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="elRecord_stim" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="loadExpVar">
+      <RoutineSettingsComponent name="loadExpVar" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="loadExpVar" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="stimParams" plugin="None">
+        <Param val="import numpy as np  # whole numpy lib is available, prepend 'np.'&amp;#10;import pandas as pd&amp;#10;import random&amp;#10;import os  # handy system and path functions&amp;#10;import sys  # to get file system encoding&amp;#10;import glob&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="eyetracking = 0&amp;#10;&amp;#10;imageFilePath = ''&amp;#10;&amp;#10;&quot;&quot;&quot;trial countdown related variables&quot;&quot;&quot;&amp;#10;#category information&amp;#10;uniqueCategories = ['shoppingcart', 'ferriswheel', 'circus', 'house', 'playground',&amp;#10;                    'bench', 'gasstation', 'schoolbus', 'airport']&amp;#10;uniqueCategoriesCnt = len(uniqueCategories)&amp;#10;&amp;#10;imEachCat = 12 #how many images are in 1 category&amp;#10;trlTotal = uniqueCategoriesCnt*imEachCat*2 #total trial = 9 categories * #images in each category *2 repetition&amp;#10;trlEachBlk = 12 #how many trials are in each block&amp;#10;blkTotal = int(trlTotal/trlEachBlk)&amp;#10;&amp;#10;#distractor trials perc&amp;#10;distractorPerc = 0.3&amp;#10;&amp;#10;#example label&amp;#10;distractorLabels = ['shopica', 'ferriwee', 'cicu', 'huse', 'paygund',&amp;#10;                    'benc', 'gatation', 'scolbu', 'irpo']&amp;#10;distractorMapping = dict(zip(uniqueCategories,distractorLabels))&amp;#10;&amp;#10;#init counter&amp;#10;trlCntTotal = 0&amp;#10;&amp;#10;&quot;&quot;&quot;timing related params&quot;&quot;&quot;&amp;#10;fixationT = 0.5&amp;#10;stimT = 3&amp;#10;retrocueT = 0.5&amp;#10;noisePatchT = 0.25&amp;#10;preCueRestT = 0.5&amp;#10;delayT = 3&amp;#10;noDistractorDelayT = 2&amp;#10;distractorT = 1.5&amp;#10;distractorRspT = 1.5&amp;#10;probeT = 5&amp;#10;itiT = 0.5&amp;#10;&amp;#10;&quot;&quot;&quot;display relayed variables&quot;&quot;&quot;&amp;#10;#init position/size related params&amp;#10;leftImPos = [-0.2,0]&amp;#10;rightImPos = [0.2,0]&amp;#10;fixSize = np.array([0.12,0.12])#np.array([0.16,0.16])&amp;#10;probeSize = [0.18,0.18]&amp;#10;probePosVarX = 0.25&amp;#10;probePosVarY = 0.12&amp;#10;&amp;#10;#other variables&amp;#10;probePosArr = np.asarray([[-1*probePosVarX,probePosVarY],[0,probePosVarY],[probePosVarX,probePosVarY],&amp;#10;                          [-1*probePosVarX,-1*probePosVarY],[0,-1*probePosVarY],[probePosVarX,-1*probePosVarY],])&amp;#10;&amp;#10;textSize = 0.03&amp;#10;visualProbeSizeScalar = 1 #np.sqrt(2)&amp;#10;&amp;#10;#Cue colors&amp;#10;cueColArr = [[0,128,0],[128,0,128]] #green,purple&amp;#10;cueColDefault = [128,115,96]&amp;#10;&amp;#10;&amp;#10;#&amp;#10;clock = core.Clock()&amp;#10;kb = keyboard.Keyboard()&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="stimParams" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <CodeComponent name="loadImages" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="&amp;#10;import newDistrTempGenConditionFile&amp;#10;ouch = True&amp;#10;while ouch:&amp;#10;    try:&amp;#10;        # Call the main function&amp;#10;        newDistrTempGenConditionFile.main()&amp;#10;        ouch = False&amp;#10;    except ValueError:&amp;#10;        print('b')&amp;#10;        continue&amp;#10;&amp;#10;df = pd.read_csv('updatedProbeTempCondFile.csv')&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="&quot;&quot;&quot;Create visual objects&quot;&quot;&quot;&amp;#10;#create fixation circle and retrocue&amp;#10;#fixation cross&amp;#10;fixCircMask = visual.ImageStim(win,image = imageFilePath + 'visualObj/fixCirc.png',size= fixSize)&amp;#10;retrocueMask = visual.ImageStim(win,image = imageFilePath + 'visualObj/retrocue.png',size= fixSize)&amp;#10;#color&amp;#10;cueCircColor = visual.Polygon(win,edges = 4,radius=1,ori = 45,colorSpace = 'rgb255',fillColor=cueColDefault,size= fixSize/2)&amp;#10;#create memory items&amp;#10;imLeft = visual.ImageStim(win, )&amp;#10;imRight = visual.ImageStim(win, )&amp;#10;imRight.setPos(rightImPos)&amp;#10;imLeft.setPos(leftImPos)&amp;#10;&amp;#10;#create noise patch&amp;#10;noisePatchLeft = visual.ImageStim(win,image = imageFilePath + 'visualObj/noiseGauss50.png')&amp;#10;noisePatchRight = visual.ImageStim(win,image = imageFilePath + 'visualObj/noiseGauss50.png')&amp;#10;noisePatchLeft.setPos(leftImPos)&amp;#10;noisePatchRight.setPos(rightImPos)&amp;#10;&amp;#10;#create the probestims&amp;#10;#visual condition&amp;#10;probeArr = np.asarray([visual.ImageStim(win,image = None,size = probeSize) for i in range(6)])&amp;#10;&amp;#10;#create distractor&amp;#10;visualDistractor = visual.ImageStim(win,image = None)&amp;#10;verbalDistractor = visual.TextStim(win,text = '',height = textSize, bold=True)&amp;#10;instrTxt = visual.TextStim(win=win, name='instrTxt',&amp;#10;        text=&quot;&quot;,&amp;#10;        font='Open Sans',&amp;#10;        pos=(0, 0.2), height=0.03, wrapWidth=None, ori=0.0, &amp;#10;        color='white', colorSpace='rgb', opacity=0.6, &amp;#10;        languageStyle='LTR',&amp;#10;        depth=0.0);" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="loadImages" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="ITI">
+      <RoutineSettingsComponent name="ITI" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="ITI" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="elRecord_iti" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="aaa = core.monotonicClock.getTime;&amp;#10;psychoJS.experiment.addData(&quot;itiStart&quot;, aaa().toString());&amp;#10;this_epoch = &quot;ITI&quot;;&amp;#10;if ((eyetracking === 1)) {&amp;#10;    el_tracker.sendMessage(&quot;ITI&quot;);&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="aaa = core.monotonicClock.getTime&amp;#10;thisExp.addData('itiStart',str(aaa()))&amp;#10;this_epoch = 'ITI'&amp;#10;&amp;#10;if eyetracking == 1:&amp;#10;    el_tracker.sendMessage('ITI')" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="aaa = core.monotonicClock.getTime;&amp;#10;psychoJS.experiment.addData(&quot;itiEnd&quot;, aaa().toString());&amp;#10;if ((eyetracking === 1)) {&amp;#10;    el_tracker.sendMessage(&quot;trialEnd&quot;);&amp;#10;    el_tracker.sendMessage(`!V TRIAL_VAR TRIALID ${trlId.toString()}`);&amp;#10;    el_tracker.stopRecording();&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="aaa = core.monotonicClock.getTime&amp;#10;thisExp.addData('itiEnd',str(aaa()))&amp;#10;if eyetracking == 1:&amp;#10;   &amp;#10;    el_tracker.sendMessage('trialEnd')&amp;#10;    el_tracker.sendMessage('!V TRIAL_VAR TRIALID %s'% str(trlId))&amp;#10;    el_tracker.stopRecording()&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="elRecord_iti" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <CodeComponent name="resets" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="#add 1 to total trl count&amp;#10;trlCntTotal +=1&amp;#10;trlCntThisBlk +=1&amp;#10;&amp;#10;clock.reset()&amp;#10;kb.clock.reset()&amp;#10;kb.clearEvents()&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="continuing = True&amp;#10;while clock.getTime() &lt;= itiT:&amp;#10;    key = kb.getKeys([ 'escape'], waitRelease=False)&amp;#10;    if 'escape' in key:&amp;#10;          core.quit()" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="clock.reset()&amp;#10;kb.clock.reset()&amp;#10;kb.clearEvents()" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="resets" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="trlInit">
+      <RoutineSettingsComponent name="trlInit" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="trlInit" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="initTrlParams" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="trlCntTotal += 1;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="&quot;&quot;&quot;create trial id&quot;&quot;&quot;&amp;#10;trlId = (expInfo['participant'],trlCntThisBlk,expBlk.thisN)&amp;#10;&amp;#10;&quot;&quot;&quot;cue related params&quot;&quot;&quot;&amp;#10;cueCircColor.fillColor = cueColDefault&amp;#10;if df['trlType'][trlCntTotal] == 'visual':&amp;#10;    cueCorThis = cueColArr[0] #green&amp;#10;else:&amp;#10;    cueCorThis = cueColArr[1] #purple&amp;#10;&amp;#10;&amp;#10;&quot;&quot;&quot;distractor related params&quot;&quot;&quot;&amp;#10;distractorType = None&amp;#10;distractorCtrl = 1 #default add distractor&amp;#10;visualDistractor.opacity = 0&amp;#10;verbalDistractor.setOpacity(0)&amp;#10;&amp;#10;if df['distractorType'][trlCntTotal] == 'noDistractor': #no distactor&amp;#10;    distractorCtrl = 0&amp;#10;else: #visual&amp;#10;    distractorCtrl = 1&amp;#10;    if df['trlType'][trlCntTotal] == 'visual' and  df['distractorType'][trlCntTotal] == 'congruent': #visual distractor:&amp;#10;        instrTxt.setText('Scrambled?')&amp;#10;        visualDistractor.setImage(df['distractorPath'][trlCntTotal].replace(os.sep, &quot;/&quot;))&amp;#10;        visualDistractor.opacity = 1&amp;#10;    elif df['trlType'][trlCntTotal] == 'verbal' and  df['distractorType'][trlCntTotal] == 'incongruent': #visual distractor:&amp;#10;        instrTxt.setText('Scrambled?')&amp;#10;        visualDistractor.setImage(df['distractorPath'][trlCntTotal].replace(os.sep, &quot;/&quot;))&amp;#10;        visualDistractor.opacity = 1&amp;#10;    elif df['trlType'][trlCntTotal] == 'visual' and  df['distractorType'][trlCntTotal] == 'incongruent': #verbal distractor:&amp;#10;        instrTxt.setText('Manmade?')&amp;#10;        verbalDistractor.setText(df['distractorPath'][trlCntTotal])&amp;#10;        verbalDistractor.setOpacity(1)&amp;#10;    else:&amp;#10;        instrTxt.setText('Manmade?')&amp;#10;        verbalDistractor.setText(df['distractorPath'][trlCntTotal])&amp;#10;        verbalDistractor.setOpacity(1)&amp;#10;        &amp;#10;&quot;&quot;&quot;probe related params&quot;&quot;&quot;&amp;#10;probePathThis = df[['probe1Path', 'probe2Path', 'probe3Path', 'probe4Path',&amp;#10;       'probe5Path', 'probe6Path']].iloc[trlCntTotal].values&amp;#10;clickableLabel = df[['probe1', 'probe2', 'probe3', 'probe4',&amp;#10;       'probe5', 'probe6']].iloc[trlCntTotal].values&amp;#10;for i in range(6):&amp;#10;   probeArr[i].setImage(probePathThis[i].replace(os.sep, &quot;/&quot;))&amp;#10;   probeArr[i].setPos(probePosArr[i])&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="thisExp.addData('TRIALID',trlId)&amp;#10;for col,val in zip(df.iloc[trlCntTotal].index,df.iloc[trlCntTotal]):&amp;#10;    thisExp.addData(col,val) &amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="initTrlParams" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="retrocue">
+      <RoutineSettingsComponent name="retrocue" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="retrocue" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="drawRetrocue" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if df['cuedItem'][trlCntTotal] == 'left':&amp;#10;    thisOri = 180&amp;#10;else:&amp;#10;    thisOri = 0&amp;#10;&amp;#10;retrocueMask.ori = thisOri&amp;#10;&amp;#10;cueCircColor.colorSpace='rgb255'&amp;#10;cueCircColor.color = cueCorThis&amp;#10;cueCircColor.setAutoDraw(True)&amp;#10;retrocueMask.setAutoDraw(True) #draw retrocue&amp;#10;&amp;#10;&amp;#10;clock.reset()&amp;#10;kb.clock.reset()&amp;#10;kb.clearEvents()&amp;#10;&amp;#10;win.flip()" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="continuing = True&amp;#10;while clock.getTime() &lt;= retrocueT:&amp;#10;    key = kb.getKeys(['space', 'escape'], waitRelease=False)&amp;#10;    if 'escape' in key:&amp;#10;          core.quit()" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="cueCircColor.setAutoDraw(False)&amp;#10;retrocueMask.setAutoDraw(False)&amp;#10;&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="drawRetrocue" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <CodeComponent name="elRecord_retrocue" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="aaa = core.monotonicClock.getTime;&amp;#10;psychoJS.experiment.addData(&quot;memory_item_start&quot;, aaa().toString());&amp;#10;this_epoch = &quot;stim&quot;;&amp;#10;stim_time = 0.25;&amp;#10;if ((slow_practice &lt; 2)) {&amp;#10;    stim_time = 1.5;&amp;#10;}&amp;#10;el_tracker.sendMessage(&quot;memory_item_start&quot;);&amp;#10;el_tracker.startRecording(1, 1, 1, 1);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="this_epoch = 'retrocue'&amp;#10;aaa = core.monotonicClock.getTime&amp;#10;thisExp.addData(this_epoch+'Start',str(aaa()))&amp;#10;&amp;#10;if eyetracking == 1:&amp;#10;    #el_tracker.startRecording(1, 1, 1, 1)&amp;#10;    el_tracker.sendMessage(this_epoch)&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="aaa = core.monotonicClock.getTime&amp;#10;thisExp.addData(this_epoch+'End',str(aaa()))&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="elRecord_retrocue" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="blkInit">
+      <RoutineSettingsComponent name="blkInit" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="blkInit" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="initBlkParams" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="trlCntThisBlk = 0" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="initBlkParams" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="IBI">
+      <RoutineSettingsComponent name="IBI" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="IBI" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="you've reached the end of this block, press space when you're ready to continue" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="ibiSpace" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="ibiSpace" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="delay">
+      <RoutineSettingsComponent name="delay" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="delay" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="delayCode" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="imageFilePath = &quot;C:/Users/ipmmz/Desktop/psychedeLights_psychopy/&quot;;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="cueCircColor.setAutoDraw(True)&amp;#10;fixCircMask.setAutoDraw(True)&amp;#10;noisePatchRight.setAutoDraw(False)&amp;#10;noisePatchLeft.setAutoDraw(False)&amp;#10;&amp;#10;clock.reset()&amp;#10;kb.clearEvents()&amp;#10;&amp;#10;win.flip()" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="continuing = True&amp;#10;while clock.getTime() &lt;= noDistractorDelayT:&amp;#10;&amp;#10;    key = kb.getKeys(['escape'], waitRelease=False)&amp;#10;    if 'escape' in key:&amp;#10;        core.quit()&amp;#10;        &amp;#10;cueCircColor.setAutoDraw(False)&amp;#10;fixCircMask.setAutoDraw(False)&amp;#10;&amp;#10;&amp;#10;while (clock.getTime() &gt;= noDistractorDelayT) &amp; (distractorCtrl == 1) &amp; (clock.getTime() &lt; noDistractorDelayT + distractorT):&amp;#10;    visualDistractor.setAutoDraw(True)&amp;#10;    verbalDistractor.setAutoDraw(True)&amp;#10;    win.flip()&amp;#10;    &amp;#10;cueCircColor.setAutoDraw(True)&amp;#10;fixCircMask.setAutoDraw(True)&amp;#10;visualDistractor.setAutoDraw(False)&amp;#10;verbalDistractor.setAutoDraw(False)&amp;#10;win.flip()&amp;#10;&amp;#10;while (clock.getTime() &lt; delayT):&amp;#10;    pass&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="noisePatchRight.setAutoDraw(False)&amp;#10;noisePatchLeft.setAutoDraw(False)&amp;#10;&amp;#10;fixCircMask.setAutoDraw(False)&amp;#10;cueCircColor.setAutoDraw(False)&amp;#10;&amp;#10;win.flip()" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="delayCode" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <CodeComponent name="elRecord_delay" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="aaa = core.monotonicClock.getTime;&amp;#10;psychoJS.experiment.addData(&quot;memory_item_start&quot;, aaa().toString());&amp;#10;this_epoch = &quot;stim&quot;;&amp;#10;stim_time = 0.25;&amp;#10;if ((slow_practice &lt; 2)) {&amp;#10;    stim_time = 1.5;&amp;#10;}&amp;#10;el_tracker.sendMessage(&quot;memory_item_start&quot;);&amp;#10;el_tracker.startRecording(1, 1, 1, 1);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="this_epoch = 'delay'&amp;#10;aaa = core.monotonicClock.getTime&amp;#10;thisExp.addData(this_epoch+'Start',str(aaa()))&amp;#10;&amp;#10;if eyetracking == 1:&amp;#10;    #el_tracker.startRecording(1, 1, 1, 1)&amp;#10;    el_tracker.sendMessage(this_epoch)&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="aaa = core.monotonicClock.getTime&amp;#10;thisExp.addData(this_epoch+'End',str(aaa()))&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="elRecord_delay" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="preCueRest">
+      <RoutineSettingsComponent name="preCueRest" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="preCueRest" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="drawNoise" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="imageFilePath = &quot;C:/Users/ipmmz/Desktop/psychedeLights_psychopy/&quot;;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="noisePatchRight.setAutoDraw(True)&amp;#10;noisePatchLeft.setAutoDraw(True)&amp;#10;&amp;#10;clock.reset()&amp;#10;kb.clearEvents()&amp;#10;&amp;#10;win.flip()" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="continuing = True&amp;#10;while clock.getTime() &lt;= noisePatchT:&amp;#10;    key = kb.getKeys(['escape'], waitRelease=False)&amp;#10;    if 'escape' in key:&amp;#10;          core.quit()&amp;#10;noisePatchRight.setAutoDraw(False)&amp;#10;noisePatchLeft.setAutoDraw(False)&amp;#10;win.flip()&amp;#10;&amp;#10;while clock.getTime() &lt;= preCueRestT:&amp;#10;    pass&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="cueCircColor.setAutoDraw(False)&amp;#10;fixCircMask.setAutoDraw(False)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="drawNoise" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <CodeComponent name="elRecord_preCue" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="aaa = core.monotonicClock.getTime;&amp;#10;psychoJS.experiment.addData(&quot;memory_item_start&quot;, aaa().toString());&amp;#10;this_epoch = &quot;stim&quot;;&amp;#10;stim_time = 0.25;&amp;#10;if ((slow_practice &lt; 2)) {&amp;#10;    stim_time = 1.5;&amp;#10;}&amp;#10;el_tracker.sendMessage(&quot;memory_item_start&quot;);&amp;#10;el_tracker.startRecording(1, 1, 1, 1);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="this_epoch = 'preCueRest'&amp;#10;aaa = core.monotonicClock.getTime&amp;#10;thisExp.addData(this_epoch+'Start',str(aaa()))&amp;#10;&amp;#10;if eyetracking == 1:&amp;#10;    #el_tracker.startRecording(1, 1, 1, 1)&amp;#10;    el_tracker.sendMessage(this_epoch)&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="aaa = core.monotonicClock.getTime&amp;#10;thisExp.addData(this_epoch+'End',str(aaa()))&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="elRecord_preCue" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="connectEL">
+      <RoutineSettingsComponent name="connectEL" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="connectEL" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="connectTracker" plugin="None">
+        <Param val="import platform&amp;#10;from PIL import Image  # for preparing the Host backdrop image&amp;#10;from string import ascii_letters&amp;#10;import time&amp;#10;&amp;#10;# import eyelink libs&amp;#10;import pylink&amp;#10;from EyeLinkCoreGraphicsPsychoPy import EyeLinkCoreGraphicsPsychoPy&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="if eyetracking == 1:&amp;#10;    # this is adapted from the SR research's eyelink tutorial code&amp;#10;    #parameters to change&amp;#10;    calib_style = 13 #9 for head fixed, 13 for remote &amp;#10;    samprate = 1000 #250, 500, 1000, or 2000&amp;#10;    calib_tar_size = 24 #size for the calibration target&amp;#10;&amp;#10;    &quot;&quot;&quot;change this&quot;&quot;&quot;&amp;#10;    width_param = 53.0 &amp;#10;    distance_param =70.0&amp;#10;&amp;#10;&amp;#10;    #create a folder to store all edf files, call this folder 'results'&amp;#10;    edf_folder = 'C:/Users/yhung/Documents/elRaw_psychedeLights'&amp;#10;    if not os.path.exists(edf_folder):&amp;#10;        os.makedirs(edf_folder)&amp;#10;&amp;#10;    # We download EDF data file from the EyeLink Host PC to the local hard&amp;#10;    # drive at the end of each testing session, here we rename the EDF to&amp;#10;    # include session start date/time&amp;#10;    time_str = time.strftime(&quot;_%Y_%m_%d_%H_%M&quot;, time.localtime())&amp;#10;    session_identifier = str(expInfo['participant']) + time_str&amp;#10;&amp;#10;    # create a folder for the current testing session in the &quot;results&quot; folder&amp;#10;    session_folder = os.path.join(edf_folder, session_identifier)&amp;#10;    if not os.path.exists(session_folder):&amp;#10;        os.makedirs(session_folder)&amp;#10;&amp;#10;&amp;#10;    #helper function for displaying text&amp;#10;    def clear_screen(win):&amp;#10;        &quot;&quot;&quot; clear up the PsychoPy window&quot;&quot;&quot;&amp;#10;&amp;#10;        win.fillColor = genv.getBackgroundColor()&amp;#10;        win.flip()&amp;#10;    def show_msg(win, text, wait_for_keypress=True):&amp;#10;        &quot;&quot;&quot; Show task instructions on screen&quot;&quot;&quot;&amp;#10;&amp;#10;        msg = visual.TextStim(win, text,&amp;#10;                              color=genv.getForegroundColor(),&amp;#10;                              wrapWidth=scn_width/2)&amp;#10;        clear_screen(win)&amp;#10;        msg.draw()&amp;#10;        win.flip()&amp;#10;&amp;#10;        # wait indefinitely, terminates upon any key press&amp;#10;        if wait_for_keypress:&amp;#10;            event.waitKeys(keyList = ['space','escape'],maxWait = 60)&amp;#10;            clear_screen(win)&amp;#10;         &amp;#10;    #function to terminate task and retrieve the EDF data file from the host PC and &amp;#10;    #download to the display pc&amp;#10;    def terminate_task():&amp;#10;        el_tracker = pylink.getEYELINK()&amp;#10;&amp;#10;        if el_tracker.isConnected():&amp;#10;&amp;#10;            # Put tracker in Offline mode&amp;#10;            el_tracker.setOfflineMode()&amp;#10;&amp;#10;            # Clear the Host PC screen and wait for 500 ms&amp;#10;            el_tracker.sendCommand('clear_screen 0')&amp;#10;            pylink.msecDelay(500)&amp;#10;&amp;#10;            # Close the edf data file on the Host&amp;#10;            el_tracker.closeDataFile()&amp;#10;&amp;#10;            # Show a file transfer message on the screen&amp;#10;            msg = 'EDF data is transferring from EyeLink Host PC...'&amp;#10;            show_msg(win, msg, wait_for_keypress=False)&amp;#10;&amp;#10;            # Download the EDF data file from the Host PC to a local data folder&amp;#10;            # parameters: source_file_on_the_host, destination_file_on_local_drive&amp;#10;            local_edf = os.path.join(session_folder, session_identifier + '.EDF')&amp;#10;            try:&amp;#10;                el_tracker.receiveDataFile(edf_file, local_edf)&amp;#10;            except RuntimeError as error:&amp;#10;                print('ERROR:', error)&amp;#10;&amp;#10;            # Close the link to the tracker.&amp;#10;            el_tracker.close()&amp;#10;&amp;#10;        # close the PsychoPy window&amp;#10;        win.close()&amp;#10;&amp;#10;        # quit PsychoPy&amp;#10;        core.quit()&amp;#10;        sys.exit()&amp;#10;        &amp;#10;    def abort_trial():&amp;#10;        &quot;&quot;&quot;Ends recording &quot;&quot;&quot;&amp;#10;&amp;#10;        el_tracker = pylink.getEYELINK()&amp;#10;&amp;#10;        # Stop recording&amp;#10;        if el_tracker.isRecording():&amp;#10;            # add 100 ms to catch final trial events&amp;#10;            pylink.pumpDelay(100)&amp;#10;            el_tracker.stopRecording()&amp;#10;&amp;#10;        # clear the screen&amp;#10;        clear_screen(win)&amp;#10;        # Send a message to clear the Data Viewer screen&amp;#10;        bgcolor_RGB = (116, 116, 116)&amp;#10;        el_tracker.sendMessage('!V CLEAR %d %d %d' % bgcolor_RGB)&amp;#10;&amp;#10;        # send a message to mark trial end&amp;#10;        el_tracker.sendMessage('TRIAL_RESULT %d' % pylink.TRIAL_ERROR)&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# Step 1: Connect to the EyeLink Host PC&amp;#10;host_ip = &quot;100.1.1.1&quot;&amp;#10;if eyetracking == 1:&amp;#10;    try:&amp;#10;        el_tracker = pylink.EyeLink(host_ip)&amp;#10;    except RuntimeError as error:&amp;#10;        print('ERROR:', error)&amp;#10;        core.quit()&amp;#10;        sys.exit()&amp;#10;    &amp;#10;    # Step 2: Open an EDF data file on the Host PC&amp;#10;    edf_file = str(expInfo['participant']) + &quot;.EDF&quot;&amp;#10;    try:&amp;#10;        el_tracker.openDataFile(edf_file)&amp;#10;    except RuntimeError as err:&amp;#10;        print('ERROR:', err)&amp;#10;        # close the link if we have one open&amp;#10;        if el_tracker.isConnected():&amp;#10;            el_tracker.close()&amp;#10;        core.quit()&amp;#10;        sys.exit()&amp;#10;&amp;#10;    # Step 3: Configure the tracker&amp;#10;    # Put the tracker in offline mode before we change tracking parameters&amp;#10;    el_tracker.setOfflineMode()&amp;#10;    # File and Link data control&amp;#10;    # what eye events to save in the EDF file, include everything by default&amp;#10;    file_event_flags = 'LEFT,RIGHT,FIXATION,SACCADE,BLINK,MESSAGE,BUTTON,INPUT'&amp;#10;    file_sample_flags = 'LEFT,RIGHT,GAZE,GAZERES,HREF,RAW,PUPIL,AREA,HTARGET,STATUS,INPUT'&amp;#10;    # what eye events to make available over the link, include everything by default&amp;#10;    link_event_flags = 'LEFT,RIGHT,FIXATION,SACCADE,BLINK,BUTTON,FIXUPDATE,INPUT'&amp;#10;    link_sample_flags = 'LEFT,RIGHT,GAZE,GAZERES,AREA,HTARGET,STATUS,INPUT'&amp;#10;    el_tracker.sendCommand(&quot;file_event_filter = %s&quot; % file_event_flags)&amp;#10;    el_tracker.sendCommand(&quot;file_sample_data = %s&quot; % file_sample_flags)&amp;#10;    el_tracker.sendCommand(&quot;link_event_filter = %s&quot; % link_event_flags)&amp;#10;    el_tracker.sendCommand(&quot;link_sample_data = %s&quot; % link_sample_flags)&amp;#10;    #set calibration style&amp;#10;    el_tracker.sendCommand(&quot;calibration_type = HV%s&quot; % str(calib_style))&amp;#10;    #set sampling rate&amp;#10;    el_tracker.sendCommand(&quot;sample_rate %s&quot; % str(samprate))&amp;#10; &amp;#10;    # Step 4: set up a graphics environment for calibration&amp;#10;    # get the native screen resolution used by PsychoPy&amp;#10;    scn_width, scn_height = win.size&amp;#10;    # resolution fix for Mac retina displays&amp;#10;    if 'Darwin' in platform.system():&amp;#10;        if use_retina:&amp;#10;            scn_width = int(scn_width/2.0)&amp;#10;            scn_height = int(scn_height/2.0)&amp;#10;    # Pass the display pixel coordinates (left, top, right, bottom) to the tracker&amp;#10;    el_coords = &quot;screen_pixel_coords = 0 0 %d %d&quot; % (scn_width - 1, scn_height - 1)&amp;#10;    el_tracker.sendCommand(el_coords)&amp;#10;    # Write a DISPLAY_COORDS message to the EDF file&amp;#10;    # Data Viewer needs this piece of info for proper visualization&amp;#10;    dv_coords = &quot;DISPLAY_COORDS  0 0 %d %d&quot; % (scn_width - 1, scn_height - 1)&amp;#10;    el_tracker.sendMessage(dv_coords)&amp;#10;    # Configure a graphics environment (genv) for tracker calibration&amp;#10;    genv = EyeLinkCoreGraphicsPsychoPy(el_tracker, win)&amp;#10;    # Set background and foreground colors for the calibration target&amp;#10;    # in PsychoPy, (-1, -1, -1)=black, (1, 1, 1)=white, (0, 0, 0)=mid-gray&amp;#10;    foreground_color = (-1, -1, -1)&amp;#10;    background_color = win.color&amp;#10;    genv.setCalibrationColors(foreground_color, background_color)&amp;#10;    genv.setTargetSize(calib_tar_size)&amp;#10;    # Request Pylink to use the PsychoPy window we opened above for calibration&amp;#10;    pylink.openGraphicsEx(genv)&amp;#10;    task_msg = 'Press &lt;space&gt;, then &lt;enter&gt; to start calibration'&amp;#10;    show_msg(win, task_msg)&amp;#10;    print('line69')&amp;#10;    &amp;#10;    try:&amp;#10;        el_tracker.doTrackerSetup()&amp;#10;    except RuntimeError as err:&amp;#10;        print('ERROR:', err)&amp;#10;        el_tracker.exitCalibration()&amp;#10;else:&amp;#10;    continueRoutine = False&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="#dont record yet&amp;#10;if eyetracking == 1:&amp;#10;    el_tracker.setOfflineMode()&amp;#10;win.mouseVisible = True&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="connectTracker" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="terminateExp">
+      <RoutineSettingsComponent name="terminateExp" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="terminateExp" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="closeEl" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="if ((eyetracking === 1)) {&amp;#10;    terminate_task();&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if eyetracking == 1:&amp;#10;&amp;#10;    # Step 7: disconnect, download the EDF file, then terminate the task&amp;#10;    terminate_task()&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="closeEl" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="categoryProbe">
+      <RoutineSettingsComponent name="categoryProbe" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="categoryProbe" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="elRecord_probe_cat" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="aaa = core.monotonicClock.getTime;&amp;#10;psychoJS.experiment.addData(&quot;memory_item_start&quot;, aaa().toString());&amp;#10;this_epoch = &quot;stim&quot;;&amp;#10;stim_time = 0.25;&amp;#10;if ((slow_practice &lt; 2)) {&amp;#10;    stim_time = 1.5;&amp;#10;}&amp;#10;el_tracker.sendMessage(&quot;memory_item_start&quot;);&amp;#10;el_tracker.startRecording(1, 1, 1, 1);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="this_epoch = 'probe'&amp;#10;aaa = core.monotonicClock.getTime&amp;#10;thisExp.addData(this_epoch+'Start',str(aaa()))&amp;#10;&amp;#10;if eyetracking == 1:&amp;#10;    el_tracker.sendMessage(this_epoch)&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="aaa = core.monotonicClock.getTime&amp;#10;thisExp.addData(this_epoch+'End',str(aaa()))&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="elRecord_probe_cat" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <PolygonComponent name="transparentPlaceHolder_cat" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="0.0000, 0.0000, 0.0000" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="transparentPlaceHolder_cat" valType="code" updates="None" name="name"/>
+        <Param val="0" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="triangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="$probeT" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <CodeComponent name="drawProbe_cat" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="probeMouse = event.Mouse(newPos = (0,0))&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="mouseIsDown = False&amp;#10;&amp;#10;#record continuous mouse activity&amp;#10;probeMouse.x = []&amp;#10;probeMouse.y = []&amp;#10;probeMouse.leftButton = []&amp;#10;probeMouse.midButton = []&amp;#10;probeMouse.rightButton = []&amp;#10;probeMouse.time = []&amp;#10;probeMouse.clickOn = []&amp;#10;&amp;#10;#other mouse related variables&amp;#10;eachClickTime = []&amp;#10;eachClickItem = []&amp;#10;&amp;#10;#the following params are used for indexing &amp;#10;a = trlCntTotal*sum(relatedProbeNum)&amp;#10;b = trlCntTotal*sum(relatedProbeNum)+sum(relatedProbeNum)&amp;#10;#c = trlCntTotal*sum(unreledProbeNum)&amp;#10;#d = trlCntTotal*sum(unreledProbeNum)+2&amp;#10;&amp;#10;#grab the position params for different probes.&amp;#10;corrPos = probePosArr[0]&amp;#10;distractorPos = probePosArr[1]&amp;#10;relPos = probePosArr[2:2+sum(relatedProbeNum)]&amp;#10;distractorRelPos = probePosArr[2+sum(relatedProbeNum):2+sum(relatedProbeNum)+sum(relatedProbeNum)]&amp;#10;#unrelPos = probePosArr[2+sum(relatedProbeNum):2+sum(relatedProbeNum)+sum(unreledProbeNum)]&amp;#10;&amp;#10;#get all probe items&amp;#10;clickables = [corrProbeArr[trlCntTotal],distractorProbeArr[trlCntTotal]]&amp;#10;&amp;#10;#set position&amp;#10;corrProbeArr[trlCntTotal].setPos(corrPos)&amp;#10;distractorProbeArr[trlCntTotal].setPos(distractorPos)&amp;#10;for i,p in zip(relProbeArr[a:b],relPos):&amp;#10;    clickables.append(i)&amp;#10;    i.setPos(p)&amp;#10;    i.setAutoDraw(True)&amp;#10;for i,p in zip(distractorRelProbeArr[a:b],distractorRelPos):&amp;#10;    clickables.append(i)&amp;#10;    i.setPos(p)&amp;#10;    i.setAutoDraw(True)    &amp;#10;&amp;#10;&quot;&quot;&quot;&amp;#10;for i,p in zip(unrelProbeArr[c:d],unrelPos):&amp;#10;    clickables.append(i)&amp;#10;    i.setPos(p)&amp;#10;    i.setAutoDraw(True)&amp;#10;&quot;&quot;&quot;&amp;#10;clickables = np.asarray(clickables)&amp;#10;clicksTotal = np.zeros(len(clickables))&amp;#10;clickOnClickable = np.zeros(len(clickables))&amp;#10;&amp;#10;#prepare to draw&amp;#10;corrProbeArr[trlCntTotal].setAutoDraw(True)&amp;#10;distractorProbeArr[trlCntTotal].setAutoDraw(True)&amp;#10;&amp;#10;#resets&amp;#10;clock.reset()&amp;#10;kb.clearEvents()&amp;#10;probeMouse.clickReset(buttons=(0, 1, 2))&amp;#10;event.clearEvents('mouse')&amp;#10;probeMouse.mouseClock.reset()&amp;#10;&amp;#10;#set mouse starting position&amp;#10;probeMouse.setPos((0,0))&amp;#10;probeMouse.setVisible(1)&amp;#10;&amp;#10;win.flip()&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="&amp;#10;x, y = probeMouse.getPos()&amp;#10;probeMouse.x.append(x)&amp;#10;probeMouse.y.append(y)&amp;#10;buttons = probeMouse.getPressed()&amp;#10;&amp;#10;probeMouse.leftButton.append(buttons[0])&amp;#10;probeMouse.midButton.append(buttons[1])&amp;#10;probeMouse.rightButton.append(buttons[2])&amp;#10;probeMouse.time.append(probeMouse.mouseClock.getTime())&amp;#10;&amp;#10;hoverOnClickable = np.asarray([i.contains(probeMouse) for i in clickables])&amp;#10;probeMouse.clickOn.append(hoverOnClickable)&amp;#10;&amp;#10;&amp;#10;key = kb.getKeys(['space', 'escape'], waitRelease=False)&amp;#10;if 'space' in key:&amp;#10;    continueRoutine  = False&amp;#10;if 'escape' in key:&amp;#10;    core.quit()&amp;#10;#check for mouse press&amp;#10;if sum(buttons) and mouseIsDown == False and sum(hoverOnClickable):&amp;#10;    clickOnClickable = np.where(hoverOnClickable,1,0)&amp;#10;    &amp;#10;    eachClickTime.append(probeMouse.mouseClock.getTime())&amp;#10;    eachClickItem.append(clickableLabel[np.where(clickOnClickable == 1)[0]][0])&amp;#10;    #mouse is pressing right now&amp;#10;    mouseIsDown = True&amp;#10;#check for mouse release    &amp;#10;if sum(buttons) == 0 and mouseIsDown:&amp;#10;    #mouse released&amp;#10;    clicksTotal += clickOnClickable&amp;#10;    &amp;#10;    #change opacity&amp;#10;    clicking = clickables[clickOnClickable ==1][0]&amp;#10;    &amp;#10;    #set opacity&amp;#10;    for n,i in enumerate(clickables):&amp;#10;        i.opacity = 1&amp;#10;    clicking.opacity = 0.25&amp;#10;    &amp;#10;    mouseIsDown = False" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="corrProbeArr[trlCntTotal].setAutoDraw(False)&amp;#10;distractorProbeArr[trlCntTotal].setAutoDraw(False)&amp;#10;&amp;#10;for i,p in zip(relProbeArr[a:b],relPos):&amp;#10;    i.setAutoDraw(False)&amp;#10;&amp;#10;for i,p in zip(distractorRelProbeArr[a:b],distractorRelPos):&amp;#10;    i.setAutoDraw(False)&amp;#10;&quot;&quot;&quot;&amp;#10;for i,p in zip(unrelProbeArr[a:b],unrelPos):&amp;#10;    i.setAutoDraw(False)&amp;#10;&quot;&quot;&quot;&amp;#10;win.flip()&amp;#10;kb.clearEvents()&amp;#10;&amp;#10;probeMouse.setVisible(0)&amp;#10;&amp;#10;#&amp;#10;&amp;#10;#add mouse activity&amp;#10;trials.addData('probeMouse.x', probeMouse.x)&amp;#10;trials.addData('probeMouse.y', probeMouse.y)&amp;#10;trials.addData('probeMouse.leftButton', probeMouse.leftButton)&amp;#10;trials.addData('probeMouse.midButton', probeMouse.midButton)&amp;#10;trials.addData('probeMouse.rightButton', probeMouse.rightButton)&amp;#10;trials.addData('probeMouse.time', probeMouse.time)&amp;#10;trials.addData('probeMouse.mouseOnProbes', probeMouse.clickOn)&amp;#10;&amp;#10;#add data about probe information&amp;#10;for label,path in zip(clickableLabel,clickables):&amp;#10;    thisExp.addData(label,path._imName)&amp;#10;    &amp;#10;#record position for each probe item&amp;#10;thisExp.addData('probeLocationArr',probePosArr)&amp;#10;#record the final response&amp;#10;thisExp.addData('rspIndex',clickOnClickable)&amp;#10;thisExp.addData('rsp',clickableLabel[np.where(clickOnClickable == 1)[0]][0])&amp;#10;thisExp.addData('rspPath',clickables[np.where(clickOnClickable == 1)[0]][0]._imName)&amp;#10;&amp;#10;#record RT&amp;#10;thisExp.addData('rt',eachClickTime[0])&amp;#10;thisExp.addData('timeEachClick', eachClickTime)&amp;#10;thisExp.addData('itemEachClick', eachClickItem)&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="drawProbe_cat" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="probe">
+      <RoutineSettingsComponent name="probe" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="probe" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="elRecord_probe" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="aaa = core.monotonicClock.getTime;&amp;#10;psychoJS.experiment.addData(&quot;memory_item_start&quot;, aaa().toString());&amp;#10;this_epoch = &quot;stim&quot;;&amp;#10;stim_time = 0.25;&amp;#10;if ((slow_practice &lt; 2)) {&amp;#10;    stim_time = 1.5;&amp;#10;}&amp;#10;el_tracker.sendMessage(&quot;memory_item_start&quot;);&amp;#10;el_tracker.startRecording(1, 1, 1, 1);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="this_epoch = 'probe'&amp;#10;aaa = core.monotonicClock.getTime&amp;#10;thisExp.addData(this_epoch+'Start',str(aaa()))&amp;#10;&amp;#10;if eyetracking == 1:&amp;#10;    el_tracker.sendMessage(this_epoch)&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="aaa = core.monotonicClock.getTime&amp;#10;thisExp.addData(this_epoch+'End',str(aaa()))&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="elRecord_probe" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <PolygonComponent name="transparentPlaceHolder" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="0.0000, 0.0000, 0.0000" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="transparentPlaceHolder" valType="code" updates="None" name="name"/>
+        <Param val="0" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="triangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="$probeT" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <CodeComponent name="drawProbe" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="probeMouse = event.Mouse(newPos = (0,0))&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="mouseIsDown = False&amp;#10;&amp;#10;#record continuous mouse activity&amp;#10;probeMouse.x = []&amp;#10;probeMouse.y = []&amp;#10;probeMouse.leftButton = []&amp;#10;probeMouse.midButton = []&amp;#10;probeMouse.rightButton = []&amp;#10;probeMouse.time = []&amp;#10;probeMouse.clickOn = []&amp;#10;&amp;#10;#other mouse related variables&amp;#10;eachClickTime = []&amp;#10;eachClickItem = []&amp;#10;&amp;#10;clicksTotal = np.zeros(len(probeArr))&amp;#10;clickOnClickable = np.zeros(len(probeArr))&amp;#10;&amp;#10;#prepare to draw&amp;#10;for i in probeArr:&amp;#10;    i.setAutoDraw(True)&amp;#10;    &amp;#10;#resets&amp;#10;clock.reset()&amp;#10;kb.clearEvents()&amp;#10;probeMouse.clickReset(buttons=(0, 1, 2))&amp;#10;event.clearEvents('mouse')&amp;#10;probeMouse.mouseClock.reset()&amp;#10;&amp;#10;#set mouse starting position&amp;#10;probeMouse.setPos((0,0))&amp;#10;probeMouse.setVisible(1)&amp;#10;&amp;#10;win.flip()&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="&amp;#10;x, y = probeMouse.getPos()&amp;#10;probeMouse.x.append(x)&amp;#10;probeMouse.y.append(y)&amp;#10;buttons = probeMouse.getPressed()&amp;#10;&amp;#10;probeMouse.leftButton.append(buttons[0])&amp;#10;probeMouse.midButton.append(buttons[1])&amp;#10;probeMouse.rightButton.append(buttons[2])&amp;#10;probeMouse.time.append(probeMouse.mouseClock.getTime())&amp;#10;&amp;#10;hoverOnClickable = np.asarray([i.contains(probeMouse) for i in probeArr])&amp;#10;probeMouse.clickOn.append(hoverOnClickable)&amp;#10;&amp;#10;&amp;#10;key = kb.getKeys(['escape'], waitRelease=False)&amp;#10;if 'escape' in key:&amp;#10;    core.quit()&amp;#10;#check for mouse press&amp;#10;if sum(buttons) and mouseIsDown == False and sum(hoverOnClickable):&amp;#10;    clickOnClickable = np.where(hoverOnClickable,1,0)&amp;#10;    &amp;#10;    eachClickTime.append(probeMouse.mouseClock.getTime())&amp;#10;    eachClickItem.append(clickableLabel[np.where(clickOnClickable == 1)[0]][0])&amp;#10;    #mouse is pressing right now&amp;#10;    mouseIsDown = True&amp;#10;#check for mouse release    &amp;#10;if sum(buttons) == 0 and mouseIsDown:&amp;#10;    #mouse released&amp;#10;    clicksTotal += clickOnClickable&amp;#10;    &amp;#10;    #change opacity&amp;#10;    clicking = probeArr[clickOnClickable ==1][0]&amp;#10;    &amp;#10;    #set opacity&amp;#10;    for n,i in enumerate(probeArr):&amp;#10;        i.opacity = 1&amp;#10;    clicking.opacity = 0.25&amp;#10;    &amp;#10;    mouseIsDown = False&amp;#10;    continueRoutine  = False" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="#undraw,reset opacity&amp;#10;for i in probeArr:&amp;#10;    i.setAutoDraw(False)&amp;#10;    i.opacity = 1&amp;#10;    if df['trlType'][trlCntTotal] == 'visual':&amp;#10;        i.size = i.size/visualProbeSizeScalar&amp;#10;    else:&amp;#10;        i.size = i.size*visualProbeSizeScalar&amp;#10;win.flip()&amp;#10;&amp;#10;#resets&amp;#10;kb.clearEvents()&amp;#10;probeMouse.setVisible(0)&amp;#10;&amp;#10;try:&amp;#10;    #add mouse activity&amp;#10;    trials.addData('probeMouse.x', probeMouse.x)&amp;#10;    trials.addData('probeMouse.y', probeMouse.y)&amp;#10;    trials.addData('probeMouse.leftButton', probeMouse.leftButton)&amp;#10;    trials.addData('probeMouse.midButton', probeMouse.midButton)&amp;#10;    trials.addData('probeMouse.rightButton', probeMouse.rightButton)&amp;#10;    trials.addData('probeMouse.time', probeMouse.time)&amp;#10;    trials.addData('probeMouse.mouseOnProbes', probeMouse.clickOn)&amp;#10;        &amp;#10;    #record position for each probe item&amp;#10;    thisExp.addData('probeLocationArr',probePosArr)&amp;#10;    #record the final response&amp;#10;    thisExp.addData('rspIndex',clickOnClickable)&amp;#10;    thisExp.addData('rsp',clickableLabel[np.where(clickOnClickable == 1)[0]][0])&amp;#10;    thisExp.addData('rspPath',probeArr[np.where(clickOnClickable == 1)[0]][0]._imName)&amp;#10;&amp;#10;    #record RT&amp;#10;    thisExp.addData('rt',eachClickTime[0])&amp;#10;    thisExp.addData('timeEachClick', eachClickTime)&amp;#10;    thisExp.addData('itemEachClick', eachClickItem)&amp;#10;    thisExp.addData('missingRsp',False)&amp;#10;except:&amp;#10;    thisExp.addData('missingRsp',True)" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="drawProbe" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="distractor">
+      <RoutineSettingsComponent name="distractor" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="distractor" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="drawDistractor" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="visualDistractor.setAutoDraw(True)&amp;#10;verbalDistractor.setAutoDraw(True)&amp;#10;instrTxt.setAutoDraw(True)&amp;#10;clock.reset()&amp;#10;kb.clock.reset()&amp;#10;kb.clearEvents()&amp;#10;&amp;#10;win.flip()" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="continuing = True&amp;#10;while clock.getTime() &lt;= distractorT:&amp;#10;    key = kb.getKeys(['w','d','escape'], waitRelease=False)&amp;#10;    &amp;#10;    if 'escape' in key:&amp;#10;          core.quit()&amp;#10;    elif ('w' in key):&amp;#10;        if df['trlType'][trlCntTotal] == 'visual' and  df['distractorType'][trlCntTotal] == 'congruent':&amp;#10;            rsp = 'scrambledImage'&amp;#10;        elif df['trlType'][trlCntTotal] == 'verbal' and  df['distractorType'][trlCntTotal] == 'incongruent': #visual distractor:&amp;#10;            rsp = 'scrambledImage'&amp;#10;        else: #verbal distractor:&amp;#10;            rsp = 'manmadeImage'&amp;#10;        if df['distractorRealness'][trlCntTotal] == rsp:&amp;#10;            correct = True&amp;#10;        else:&amp;#10;            correct = False&amp;#10;    elif ('d' in key):&amp;#10;        if df['trlType'][trlCntTotal] == 'visual' and  df['distractorType'][trlCntTotal] == 'congruent':&amp;#10;            rsp = 'nonScrambledImage'&amp;#10;        elif df['trlType'][trlCntTotal] == 'verbal' and  df['distractorType'][trlCntTotal] == 'incongruent': #visual distractor:&amp;#10;            rsp = 'nonScrambledImage'&amp;#10;        else: #verbal distractor:&amp;#10;            rsp = 'nonManmadeImage'&amp;#10;        if df['distractorRealness'][trlCntTotal] == rsp:&amp;#10;            correct = True&amp;#10;        else:&amp;#10;            correct = False&amp;#10;    else:&amp;#10;        rsp = None&amp;#10;        correct = None&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="visualDistractor.setAutoDraw(False)&amp;#10;verbalDistractor.setAutoDraw(False)&amp;#10;instrTxt.setAutoDraw(False)&amp;#10;win.flip()&amp;#10;if not rsp == None:&amp;#10;    thisExp.addData('distractorRsp',rsp)&amp;#10;    thisExp.addData('distractorRspRealness',correct)" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="drawDistractor" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <CodeComponent name="elRecord_distractor" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="aaa = core.monotonicClock.getTime;&amp;#10;psychoJS.experiment.addData(&quot;memory_item_start&quot;, aaa().toString());&amp;#10;this_epoch = &quot;stim&quot;;&amp;#10;stim_time = 0.25;&amp;#10;if ((slow_practice &lt; 2)) {&amp;#10;    stim_time = 1.5;&amp;#10;}&amp;#10;el_tracker.sendMessage(&quot;memory_item_start&quot;);&amp;#10;el_tracker.startRecording(1, 1, 1, 1);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="this_epoch = 'distractor'&amp;#10;aaa = core.monotonicClock.getTime&amp;#10;thisExp.addData(this_epoch+'Start',str(aaa()))&amp;#10;&amp;#10;if eyetracking == 1:&amp;#10;    #el_tracker.startRecording(1, 1, 1, 1)&amp;#10;    el_tracker.sendMessage(this_epoch)&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="aaa = core.monotonicClock.getTime&amp;#10;thisExp.addData(this_epoch+'End',str(aaa()))&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="elRecord_distractor" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="instr">
+      <RoutineSettingsComponent name="instr" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="instr" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+    </Routine>
+    <Routine name="drift_check">
+      <RoutineSettingsComponent name="drift_check" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="drift_check" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="drift_check_code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="[scn_width, scn_height];&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if eyetracking == 1:&amp;#10;    # drift-check and re-do camera setup if ESCAPE is pressed&amp;#10;    try:&amp;#10;        error = el_tracker.doDriftCorrect(int(scn_width/2.0),&amp;#10;                                          int(scn_height/2.0), 1, 1)&amp;#10;        # break following a success drift-check&amp;#10;    except:&amp;#10;        continue&amp;#10;    # put tracker in idle/offline mode before recording&amp;#10;    el_tracker.setOfflineMode()" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="drift_check_code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="delayNoDistractor">
+      <RoutineSettingsComponent name="delayNoDistractor" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="delayNoDistractor" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="delayCode_noDistractor" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="imageFilePath = &quot;C:/Users/ipmmz/Desktop/psychedeLights_psychopy/&quot;;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="cueCircColor.color = cueColDefault&amp;#10;&amp;#10;cueCircColor.setAutoDraw(True)&amp;#10;fixCircMask.setAutoDraw(True)&amp;#10;noisePatchRight.setAutoDraw(False)&amp;#10;noisePatchLeft.setAutoDraw(False)&amp;#10;&amp;#10;clock.reset()&amp;#10;kb.clearEvents()&amp;#10;&amp;#10;win.flip()" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="while (clock.getTime() &lt; delayT):&amp;#10;    pass" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="noisePatchRight.setAutoDraw(False)&amp;#10;noisePatchLeft.setAutoDraw(False)&amp;#10;cueCircColor.setAutoDraw(False)&amp;#10;fixCircMask.setAutoDraw(False)&amp;#10;&amp;#10;win.flip()" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="delayCode_noDistractor" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <CodeComponent name="elRecord_delay_noDistractor" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="aaa = core.monotonicClock.getTime;&amp;#10;psychoJS.experiment.addData(&quot;memory_item_start&quot;, aaa().toString());&amp;#10;this_epoch = &quot;stim&quot;;&amp;#10;stim_time = 0.25;&amp;#10;if ((slow_practice &lt; 2)) {&amp;#10;    stim_time = 1.5;&amp;#10;}&amp;#10;el_tracker.sendMessage(&quot;memory_item_start&quot;);&amp;#10;el_tracker.startRecording(1, 1, 1, 1);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="this_epoch = 'delay'&amp;#10;aaa = core.monotonicClock.getTime&amp;#10;thisExp.addData(this_epoch+'Start',str(aaa()))&amp;#10;&amp;#10;if eyetracking == 1:&amp;#10;    #el_tracker.startRecording(1, 1, 1, 1)&amp;#10;    el_tracker.sendMessage(this_epoch)&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="aaa = core.monotonicClock.getTime&amp;#10;thisExp.addData(this_epoch+'End',str(aaa()))&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="elRecord_delay_noDistractor" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="distractorResponse">
+      <RoutineSettingsComponent name="distractorResponse" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="distractorResponse" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="distractorResponse_code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="cueCircColor.color = cueColDefault;&amp;#10;cueCircColor.setAutoDraw(true);&amp;#10;fixCircMask.setAutoDraw(true);&amp;#10;noisePatchRight.setAutoDraw(false);&amp;#10;noisePatchLeft.setAutoDraw(false);&amp;#10;clock.reset();&amp;#10;kb.clearEvents();&amp;#10;psychoJS.window.flip();&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="cueCircColor.color = cueColDefault&amp;#10;&amp;#10;cueCircColor.setAutoDraw(True)&amp;#10;fixCircMask.setAutoDraw(True)&amp;#10;noisePatchRight.setAutoDraw(False)&amp;#10;noisePatchLeft.setAutoDraw(False)&amp;#10;&amp;#10;clock.reset()&amp;#10;kb.clearEvents()&amp;#10;&amp;#10;win.flip()" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="continuing = True&amp;#10;while clock.getTime() &lt;= distractorRspT:&amp;#10;    key = kb.getKeys(['w','d','escape'], waitRelease=False)&amp;#10;    &amp;#10;    if 'escape' in key:&amp;#10;          core.quit()&amp;#10;    elif ('w' in key):&amp;#10;        if df['trlType'][trlCntTotal] == 'visual' and  df['distractorType'][trlCntTotal] == 'congruent':&amp;#10;            rsp = 'scrambledImage'&amp;#10;        elif df['trlType'][trlCntTotal] == 'verbal' and  df['distractorType'][trlCntTotal] == 'incongruent': #visual distractor:&amp;#10;            rsp = 'scrambledImage'&amp;#10;        else: #verbal distractor:&amp;#10;            rsp = 'manmadeImage'&amp;#10;        if df['distractorRealness'][trlCntTotal] == rsp:&amp;#10;            correct = True&amp;#10;        else:&amp;#10;            correct = False&amp;#10;        break&amp;#10;    elif ('d' in key):&amp;#10;        if df['trlType'][trlCntTotal] == 'visual' and  df['distractorType'][trlCntTotal] == 'congruent':&amp;#10;            rsp = 'nonScrambledImage'&amp;#10;        elif df['trlType'][trlCntTotal] == 'verbal' and  df['distractorType'][trlCntTotal] == 'incongruent': #visual distractor:&amp;#10;            rsp = 'nonScrambledImage'&amp;#10;        else: #verbal distractor:&amp;#10;            rsp = 'nonManmadeImage'&amp;#10;        if df['distractorRealness'][trlCntTotal] == rsp:&amp;#10;            correct = True&amp;#10;        else:&amp;#10;            correct = False&amp;#10;        break&amp;#10;    else:&amp;#10;        rsp = None&amp;#10;        correct = None&amp;#10;    &amp;#10;continueRoutine  = False" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="var _pj;&amp;#10;function _pj_snippets(container) {&amp;#10;    function in_es6(left, right) {&amp;#10;        if (((right instanceof Array) || ((typeof right) === &quot;string&quot;))) {&amp;#10;            return (right.indexOf(left) &gt; (- 1));&amp;#10;        } else {&amp;#10;            if (((right instanceof Map) || (right instanceof Set) || (right instanceof WeakMap) || (right instanceof WeakSet))) {&amp;#10;                return right.has(left);&amp;#10;            } else {&amp;#10;                return (left in right);&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;    container[&quot;in_es6&quot;] = in_es6;&amp;#10;    return container;&amp;#10;}&amp;#10;_pj = {};&amp;#10;_pj_snippets(_pj);&amp;#10;continuing = true;&amp;#10;while ((clock.getTime() &lt;= distractorRspT)) {&amp;#10;    key = kb.getKeys([&quot;w&quot;, &quot;d&quot;, &quot;escape&quot;], {&quot;waitRelease&quot;: false});&amp;#10;    if (_pj.in_es6(&quot;escape&quot;, key)) {&amp;#10;        core.quit();&amp;#10;    } else {&amp;#10;        if (_pj.in_es6(&quot;w&quot;, key)) {&amp;#10;            if (((df[&quot;trlType&quot;][trlCntTotal] === &quot;visual&quot;) &amp;&amp; (df[&quot;distractorType&quot;][trlCntTotal] === &quot;congruent&quot;))) {&amp;#10;                rsp = &quot;scrambledImage&quot;;&amp;#10;            } else {&amp;#10;                if (((df[&quot;trlType&quot;][trlCntTotal] === &quot;verbal&quot;) &amp;&amp; (df[&quot;distractorType&quot;][trlCntTotal] === &quot;incongruent&quot;))) {&amp;#10;                    rsp = &quot;scrambledImage&quot;;&amp;#10;                } else {&amp;#10;                    rsp = &quot;animateImage&quot;;&amp;#10;                }&amp;#10;            }&amp;#10;            if ((df[&quot;distractorRealness&quot;][trlCntTotal] === rsp)) {&amp;#10;                correct = true;&amp;#10;            } else {&amp;#10;                correct = false;&amp;#10;            }&amp;#10;            break;&amp;#10;        } else {&amp;#10;            if (_pj.in_es6(&quot;d&quot;, key)) {&amp;#10;                if (((df[&quot;trlType&quot;][trlCntTotal] === &quot;visual&quot;) &amp;&amp; (df[&quot;distractorType&quot;][trlCntTotal] === &quot;congruent&quot;))) {&amp;#10;                    rsp = &quot;nonScrambledImage&quot;;&amp;#10;                } else {&amp;#10;                    if (((df[&quot;trlType&quot;][trlCntTotal] === &quot;verbal&quot;) &amp;&amp; (df[&quot;distractorType&quot;][trlCntTotal] === &quot;incongruent&quot;))) {&amp;#10;                        rsp = &quot;nonScrambledImage&quot;;&amp;#10;                    } else {&amp;#10;                        rsp = &quot;inanimateImage&quot;;&amp;#10;                    }&amp;#10;                }&amp;#10;                if ((df[&quot;distractorRealness&quot;][trlCntTotal] === rsp)) {&amp;#10;                    correct = true;&amp;#10;                } else {&amp;#10;                    correct = false;&amp;#10;                }&amp;#10;                break;&amp;#10;            } else {&amp;#10;                rsp = null;&amp;#10;                correct = null;&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;continueRoutine = false;&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="noisePatchRight.setAutoDraw(false);&amp;#10;noisePatchLeft.setAutoDraw(false);&amp;#10;cueCircColor.setAutoDraw(false);&amp;#10;fixCircMask.setAutoDraw(false);&amp;#10;psychoJS.window.flip();&amp;#10;psychoJS.experiment.addData(&quot;distractorRsp&quot;, rsp);&amp;#10;psychoJS.experiment.addData(&quot;distractorRspRealness&quot;, correct);&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="noisePatchRight.setAutoDraw(False)&amp;#10;noisePatchLeft.setAutoDraw(False)&amp;#10;cueCircColor.setAutoDraw(False)&amp;#10;fixCircMask.setAutoDraw(False)&amp;#10;&amp;#10;win.flip()&amp;#10;thisExp.addData('distractorRsp',rsp)&amp;#10;thisExp.addData('distractorRspRealness',correct)" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="distractorResponse_code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <CodeComponent name="elDistractorResponse_code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="this_epoch = &quot;distractorResponse&quot;;&amp;#10;aaa = core.monotonicClock.getTime;&amp;#10;psychoJS.experiment.addData((this_epoch + &quot;Start&quot;), aaa().toString());&amp;#10;if ((eyetracking === 1)) {&amp;#10;    el_tracker.sendMessage(this_epoch);&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="this_epoch = 'distractorResponse'&amp;#10;aaa = core.monotonicClock.getTime&amp;#10;thisExp.addData(this_epoch+'Start',str(aaa()))&amp;#10;&amp;#10;if eyetracking == 1:&amp;#10;    #el_tracker.startRecording(1, 1, 1, 1)&amp;#10;    el_tracker.sendMessage(this_epoch)&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="aaa = core.monotonicClock.getTime;&amp;#10;psychoJS.experiment.addData((this_epoch + &quot;End&quot;), aaa().toString());&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="aaa = core.monotonicClock.getTime&amp;#10;thisExp.addData(this_epoch+'End',str(aaa()))&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="elDistractorResponse_code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="loadExpVar"/>
+    <Routine name="connectEL"/>
+    <LoopInitiator loopType="TrialHandler" name="expBlk">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="False" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="blkTotal" valType="num"/>
+      <Param name="name" updates="None" val="expBlk" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="blkInit"/>
+    <Routine name="drift_check"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="trlEachBlk" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trlInit"/>
+    <Routine name="fixationRest"/>
+    <Routine name="stim"/>
+    <Routine name="preCueRest"/>
+    <Routine name="retrocue"/>
+    <Routine name="delayNoDistractor"/>
+    <LoopInitiator loopType="TrialHandler" name="distractorCtrl">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="distractorCtrl" valType="num"/>
+      <Param name="name" updates="None" val="distractorCtrl" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="distractor"/>
+    <Routine name="distractorResponse"/>
+    <LoopTerminator name="distractorCtrl"/>
+    <Routine name="probe"/>
+    <Routine name="ITI"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="IBI"/>
+    <LoopTerminator name="expBlk"/>
+    <Routine name="terminateExp"/>
+  </Flow>
+</PsychoPy2experiment>
