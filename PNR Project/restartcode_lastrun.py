@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
-    on May 05, 2025, at 18:01
+    on May 27, 2025, at 20:48
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -455,6 +455,12 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "delayCode_2" ---
     
+    # --- Initialize components for Routine "testingBlk" ---
+    # Run 'Begin Experiment' code from drawMouse
+    probeMouse = event.Mouse(newPos = (0,0))
+    
+    # --- Initialize components for Routine "ITI" ---
+    
     # create some handy timers
     
     # global clock to track the time since experiment started
@@ -498,6 +504,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     #fixation cross
     fixCircMask = visual.ImageStim(win,image = imageFilePath + 'visualObj/fixCirc.png',size= fixSize)
     retrocueMask = visual.ImageStim(win,image = imageFilePath + 'visualObj/retrocue.png',size= fixSize)
+    locationTracker = visual.ImageStim(win,image = imageFilePath + 'visualObj/square.png',size= fixSize)
     #color
     cueCircColor = visual.Polygon(win,edges = 4,radius=1,ori = 45,colorSpace = 'rgb255',fillColor=cueColDefault,size= fixSize/2)
     #create memory items
@@ -762,10 +769,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             cueCircColor.fillColor = cueColDefault
             if df['cuedItem'][trlCntTotal] == 'left':
                 cueCorThis = cueColArr[0] #green
-            elif df['cuedItem'][trlCntTotal] == 'right':
-                cueCorThis = cueColArr[0] #green
             else:
-                cueCorThis = cueColArr[1] #purple
+                cueCorThis = cueColArr[0] #purple
             
             
             # store start times for trlInit
@@ -906,6 +911,12 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 tThisFlipGlobal = win.getFutureFlipTime(clock=None)
                 frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
                 # update/draw components on each frame
+                # Run 'Each Frame' code from fixationCir
+                continuing = True
+                while clock.getTime()<=fixationT:
+                    key = kb.getKeys(['space', 'escape'], waitRelease=False)
+                    if 'escape' in key:
+                        core.quit()
                 
                 # check for quit (typically the Esc key)
                 if defaultKeyboard.getKeys(keyList=["escape"]):
@@ -1412,7 +1423,315 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             delayCode_2.tStop = globalClock.getTime(format='float')
             delayCode_2.tStopRefresh = tThisFlipGlobal
             thisExp.addData('delayCode_2.stopped', delayCode_2.tStop)
+            # Run 'End Routine' code from delayCode
+            noisePatchRight.setAutoDraw(False)
+            noisePatchLeft.setAutoDraw(False)
+            cueCircColor.setAutoDraw(False)
+            fixCircMask.setAutoDraw(False)
+            
+            win.flip()
             # the Routine "delayCode_2" was not non-slip safe, so reset the non-slip timer
+            routineTimer.reset()
+            
+            # --- Prepare to start Routine "testingBlk" ---
+            # create an object to store info about Routine testingBlk
+            testingBlk = data.Routine(
+                name='testingBlk',
+                components=[],
+            )
+            testingBlk.status = NOT_STARTED
+            continueRoutine = True
+            # update component parameters for each repeat
+            # Run 'Begin Routine' code from loadImage
+            '''
+            locationTracker.setAutoDraw(True)
+            
+            clock.reset()
+            kb.clock.reset()
+            kb.clearEvents()
+            
+            win.flip()
+            '''
+            # Run 'Begin Routine' code from drawMouse
+            mouseIsDown = False
+            
+            #record continuous mouse activity
+            probeMouse.x = []
+            probeMouse.y = []
+            probeMouse.leftButton = []
+            probeMouse.midButton = []
+            probeMouse.rightButton = []
+            probeMouse.time = []
+            probeMouse.clickOn = []
+            
+            #other mouse related variables
+            eachClickTime = []
+            eachClickItem = []
+            
+            clicksTotal = 0
+            clickOnClickable = 0
+            
+            #prepare to draw
+            locationTracker.setAutoDraw(True)
+            
+            #resets
+            clock.reset()
+            kb.clearEvents()
+            probeMouse.clickReset(buttons=(0, 1, 2))
+            event.clearEvents('mouse')
+            probeMouse.mouseClock.reset()
+            
+            #set mouse starting position
+            probeMouse.setPos((0,0))
+            probeMouse.setVisible(1)
+            
+            win.flip()
+            # store start times for testingBlk
+            testingBlk.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
+            testingBlk.tStart = globalClock.getTime(format='float')
+            testingBlk.status = STARTED
+            thisExp.addData('testingBlk.started', testingBlk.tStart)
+            testingBlk.maxDuration = None
+            # keep track of which components have finished
+            testingBlkComponents = testingBlk.components
+            for thisComponent in testingBlk.components:
+                thisComponent.tStart = None
+                thisComponent.tStop = None
+                thisComponent.tStartRefresh = None
+                thisComponent.tStopRefresh = None
+                if hasattr(thisComponent, 'status'):
+                    thisComponent.status = NOT_STARTED
+            # reset timers
+            t = 0
+            _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+            frameN = -1
+            
+            # --- Run Routine "testingBlk" ---
+            # if trial has changed, end Routine now
+            if isinstance(trials, data.TrialHandler2) and thisTrial.thisN != trials.thisTrial.thisN:
+                continueRoutine = False
+            testingBlk.forceEnded = routineForceEnded = not continueRoutine
+            while continueRoutine:
+                # get current time
+                t = routineTimer.getTime()
+                tThisFlip = win.getFutureFlipTime(clock=routineTimer)
+                tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+                frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+                # update/draw components on each frame
+                # Run 'Each Frame' code from drawMouse
+                continueRoutine = True
+                while continueRoutine:
+                    win.flip()
+                    x, y = probeMouse.getPos()
+                    probeMouse.x.append(x)
+                    probeMouse.y.append(y)
+                    buttons = probeMouse.getPressed()
+                
+                    probeMouse.leftButton.append(buttons[0])
+                    probeMouse.midButton.append(buttons[1])
+                    probeMouse.rightButton.append(buttons[2])
+                    probeMouse.time.append(probeMouse.mouseClock.getTime())
+                
+                    hoverOnClickable = locationTracker.contains(probeMouse)
+                    probeMouse.clickOn.append(hoverOnClickable)
+                
+                
+                    key = kb.getKeys(['escape'], waitRelease=False)
+                    if 'escape' in key:
+                        core.quit()
+                    #check for mouse press
+                    if sum(buttons) and mouseIsDown == False and hoverOnClickable:
+                        clickOnClickable = 1
+                
+                        eachClickTime.append(probeMouse.mouseClock.getTime())
+                        eachClickItem.append(locationTracker.image)
+                        #mouse is pressing right now
+                        mouseIsDown = True
+                    #check for mouse release
+                    if sum(buttons) == 0 and mouseIsDown:
+                        #mouse released
+                        clicksTotal += clickOnClickable
+                
+                        #change opacity
+                        clicking = locationTracker
+                
+                
+                        mouseIsDown = False
+                        continueRoutine  = False
+                
+                # check for quit (typically the Esc key)
+                if defaultKeyboard.getKeys(keyList=["escape"]):
+                    thisExp.status = FINISHED
+                if thisExp.status == FINISHED or endExpNow:
+                    endExperiment(thisExp, win=win)
+                    return
+                # pause experiment here if requested
+                if thisExp.status == PAUSED:
+                    pauseExperiment(
+                        thisExp=thisExp, 
+                        win=win, 
+                        timers=[routineTimer], 
+                        playbackComponents=[]
+                    )
+                    # skip the frame we paused on
+                    continue
+                
+                # check if all components have finished
+                if not continueRoutine:  # a component has requested a forced-end of Routine
+                    testingBlk.forceEnded = routineForceEnded = True
+                    break
+                continueRoutine = False  # will revert to True if at least one component still running
+                for thisComponent in testingBlk.components:
+                    if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                        continueRoutine = True
+                        break  # at least one component has not yet finished
+                
+                # refresh the screen
+                if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                    win.flip()
+            
+            # --- Ending Routine "testingBlk" ---
+            for thisComponent in testingBlk.components:
+                if hasattr(thisComponent, "setAutoDraw"):
+                    thisComponent.setAutoDraw(False)
+            # store stop times for testingBlk
+            testingBlk.tStop = globalClock.getTime(format='float')
+            testingBlk.tStopRefresh = tThisFlipGlobal
+            thisExp.addData('testingBlk.stopped', testingBlk.tStop)
+            # Run 'End Routine' code from loadImage
+            '''
+            locationTracker.setAutoDraw(False)
+            win.flip()
+            '''
+            # Run 'End Routine' code from drawMouse
+            
+            #resets
+            locationTracker.setAutoDraw(False)
+            win.flip()
+            kb.clearEvents()
+            probeMouse.setVisible(0)
+            
+            try:
+                #add mouse activity
+                trials.addData('probeMouse.x', probeMouse.x)
+                trials.addData('probeMouse.y', probeMouse.y)
+                trials.addData('probeMouse.leftButton', probeMouse.leftButton)
+                trials.addData('probeMouse.midButton', probeMouse.midButton)
+                trials.addData('probeMouse.rightButton', probeMouse.rightButton)
+                trials.addData('probeMouse.time', probeMouse.time)
+                trials.addData('probeMouse.mouseOnProbes', probeMouse.clickOn)
+            
+            
+                #record the final response
+                thisExp.addData('rspIndex',clickOnClickable)
+                thisExp.addData('rsp',clickableLabel[np.where(clickOnClickable == 1)[0]][0])
+                thisExp.addData('rspPath',locationTracker[np.where(clickOnClickable == 1)[0]][0]._imName)
+            
+                #record RT
+                thisExp.addData('rt',eachClickTime[0])
+                thisExp.addData('timeEachClick', eachClickTime)
+                thisExp.addData('itemEachClick', eachClickItem)
+                thisExp.addData('missingRsp',False)
+            except:
+                thisExp.addData('missingRsp',True)
+            
+            # the Routine "testingBlk" was not non-slip safe, so reset the non-slip timer
+            routineTimer.reset()
+            
+            # --- Prepare to start Routine "ITI" ---
+            # create an object to store info about Routine ITI
+            ITI = data.Routine(
+                name='ITI',
+                components=[],
+            )
+            ITI.status = NOT_STARTED
+            continueRoutine = True
+            # update component parameters for each repeat
+            # Run 'Begin Routine' code from code_2
+            trlCntTotal +=1
+            trlCntThisBlk +=1
+            
+            clock.reset()
+            kb.clock.reset()
+            kb.clearEvents()
+            
+            # store start times for ITI
+            ITI.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
+            ITI.tStart = globalClock.getTime(format='float')
+            ITI.status = STARTED
+            thisExp.addData('ITI.started', ITI.tStart)
+            ITI.maxDuration = None
+            # keep track of which components have finished
+            ITIComponents = ITI.components
+            for thisComponent in ITI.components:
+                thisComponent.tStart = None
+                thisComponent.tStop = None
+                thisComponent.tStartRefresh = None
+                thisComponent.tStopRefresh = None
+                if hasattr(thisComponent, 'status'):
+                    thisComponent.status = NOT_STARTED
+            # reset timers
+            t = 0
+            _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+            frameN = -1
+            
+            # --- Run Routine "ITI" ---
+            # if trial has changed, end Routine now
+            if isinstance(trials, data.TrialHandler2) and thisTrial.thisN != trials.thisTrial.thisN:
+                continueRoutine = False
+            ITI.forceEnded = routineForceEnded = not continueRoutine
+            while continueRoutine:
+                # get current time
+                t = routineTimer.getTime()
+                tThisFlip = win.getFutureFlipTime(clock=routineTimer)
+                tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+                frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+                # update/draw components on each frame
+                
+                # check for quit (typically the Esc key)
+                if defaultKeyboard.getKeys(keyList=["escape"]):
+                    thisExp.status = FINISHED
+                if thisExp.status == FINISHED or endExpNow:
+                    endExperiment(thisExp, win=win)
+                    return
+                # pause experiment here if requested
+                if thisExp.status == PAUSED:
+                    pauseExperiment(
+                        thisExp=thisExp, 
+                        win=win, 
+                        timers=[routineTimer], 
+                        playbackComponents=[]
+                    )
+                    # skip the frame we paused on
+                    continue
+                
+                # check if all components have finished
+                if not continueRoutine:  # a component has requested a forced-end of Routine
+                    ITI.forceEnded = routineForceEnded = True
+                    break
+                continueRoutine = False  # will revert to True if at least one component still running
+                for thisComponent in ITI.components:
+                    if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                        continueRoutine = True
+                        break  # at least one component has not yet finished
+                
+                # refresh the screen
+                if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                    win.flip()
+            
+            # --- Ending Routine "ITI" ---
+            for thisComponent in ITI.components:
+                if hasattr(thisComponent, "setAutoDraw"):
+                    thisComponent.setAutoDraw(False)
+            # store stop times for ITI
+            ITI.tStop = globalClock.getTime(format='float')
+            ITI.tStopRefresh = tThisFlipGlobal
+            thisExp.addData('ITI.stopped', ITI.tStop)
+            # Run 'End Routine' code from code_2
+            clock.reset()
+            kb.clock.reset()
+            kb.clearEvents()
+            # the Routine "ITI" was not non-slip safe, so reset the non-slip timer
             routineTimer.reset()
             thisExp.nextEntry()
             

@@ -110,8 +110,8 @@ def main():
     #neutralGreyImages = glob.glob(imageFilePath + 'sceneSet2/step3_probes/*.jpg')
 
     #load stims
-    cubeShape = glob.glob('stimuli\cubes\*.jpg')
-    cylinderShape = glob.glob('stimuli\cylinders\*.jpg')
+    cubeShape = glob.glob('stimuli\cubes_resized\*.jpg')
+    cylinderShape = glob.glob('stimuli\cylinders_resized\*.jpg')
 
     #shuffle stimuli
     random.shuffle(cylinderShape)

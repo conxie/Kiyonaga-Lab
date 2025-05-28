@@ -1,13 +1,13 @@
 ,leftCategory,leftImagePath,rightCategory,rightImagePath,cuedItem
-0,cube,stimuli\cubes\minecraftblock2_Middle.jpg,cube,stimuli\cubes\die_Far.jpg,right
-1,cube,stimuli\cubes\greenCube_Far.jpg,cube,stimuli\cubes\greeneggandcube_Far.jpg,right
-2,cube,stimuli\cubes\blackCube_Near.jpg,cube,stimuli\cubes\greenCube_Far.jpg,left
-3,cube,stimuli\cubes\greenCube_Far.jpg,cube,stimuli\cubes\grayCube_Far.jpg,left
-4,cube,stimuli\cubes\concreteblock_Near.jpg,cube,stimuli\cubes\greenCube_Far.jpg,left
-5,cube,stimuli\cubes\grayCube_Far.jpg,cube,stimuli\cubes\greenCube_Far.jpg,right
-6,cylinder,stimuli\cylinders\woodUprightCylinder_Far.jpg,cylinder,stimuli\cylinders\cubeandcylinder_Near.jpg,right
-7,cylinder,stimuli\cylinders\lightgrayUprightCylinder_Middle.jpg,cylinder,stimuli\cylinders\cubeandcylinder_Near.jpg,right
-8,cylinder,stimuli\cylinders\purple cylinders_Middle.jpg,cylinder,stimuli\cylinders\woodUprightCylinder_Far.jpg,right
-9,cylinder,stimuli\cylinders\woodDownCylinder_Far.jpg,cylinder,stimuli\cylinders\cubeandcylinder_Near.jpg,left
-10,cylinder,stimuli\cylinders\purple cylinders_Middle.jpg,cylinder,stimuli\cylinders\cubeandcylinder_Near.jpg,left
-11,cylinder,stimuli\cylinders\woodUprightCylinder_Far.jpg,cylinder,stimuli\cylinders\purple cylinders_Middle.jpg,left
+0,cube,stimuli\cubes_resized\cubeCeptionCube_Near.jpg,cube,stimuli\cubes_resized\die2_Far.jpg,right
+1,cube,stimuli\cubes_resized\woodenCube copy_Middle.jpg,cube,stimuli\cubes_resized\cubeCeptionCube_Near.jpg,left
+2,cube,stimuli\cubes_resized\die_Far.jpg,cube,stimuli\cubes_resized\die2_Far.jpg,left
+3,cube,stimuli\cubes_resized\woodenCube copy_Middle.jpg,cube,stimuli\cubes_resized\woodenCube_Middle.jpg,right
+4,cube,stimuli\cubes_resized\minecraftblock2_Middle.jpg,cube,stimuli\cubes_resized\woodenCube_Middle.jpg,right
+5,cube,stimuli\cubes_resized\die_Far.jpg,,,right
+6,cylinder,stimuli\cylinders_resized\redcylinder_Far.jpg,cylinder,stimuli\cylinders_resized\cubeandcylinder2_Near.jpg,left
+7,cylinder,stimuli\cylinders_resized\grayUprightCylinder_Middle.jpg,cylinder,stimuli\cylinders_resized\cubeandcylinder2_Near.jpg,left
+8,cylinder,stimuli\cylinders_resized\goldUprightCylinder_Middle.jpg,cylinder,stimuli\cylinders_resized\redcylinder_Far.jpg,left
+9,cylinder,stimuli\cylinders_resized\redcylinder_Far.jpg,cylinder,stimuli\cylinders_resized\woodUprightCylinder_Far.jpg,right
+10,cylinder,stimuli\cylinders_resized\cubeandcylinder2_Near.jpg,cylinder,stimuli\cylinders_resized\woodUprightCylinder_Far.jpg,right
+11,cylinder,stimuli\cylinders_resized\woodUprightCylinder_Far.jpg,cylinder,stimuli\cylinders_resized\redcylinder_Far.jpg,left
