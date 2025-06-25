@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
-    on May 27, 2025, at 20:48
+    on June 25, 2025, at 15:59
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -42,6 +42,7 @@ import os  # handy system and path functions
 import sys  # to get file system encoding
 import glob
 import itertools
+import math
 
 from psychopy import visual, event, core
 import random
@@ -376,30 +377,29 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # --- Initialize components for Routine "loadExpVar" ---
     # Run 'Begin Experiment' code from loadImages
     
-    import newDistrTempGenConditionFile
+    import CUBE_ONLY_newDistrTempGenConditionFile
     ouch = True
     while ouch:
         try:
             # Call the main function
-            newDistrTempGenConditionFile.main()
+            CUBE_ONLY_newDistrTempGenConditionFile.main()
             ouch = False
         except ValueError:
             print('b')
             continue
     
-    df = pd.read_csv('connie.csv')
+    df = pd.read_csv('Cubeconnie_distance_matched.csv')
     # Run 'Begin Experiment' code from stimParams
     imageFilePath = ''
     
     """trial countdown related variables"""
     #category information
-    uniqueCategories = ['cylinder', 'cube']
+    uniqueCategories = ['cube']
     uniqueCategoriesCnt = len(uniqueCategories)
     
-    imEachCat = 12 #how many images are in 1 category
-    trlTotal = uniqueCategoriesCnt*imEachCat*2 #total trial = 9 categories * #images in each category *2 repetition
-    trlEachBlk = 12 #how many trials are in each block
-    blkTotal = int(trlTotal/trlEachBlk)
+    trlTotal = len(df)
+    trlEachBlk = 60  #counting # of images 
+    blkTotal = math.ceil(trlTotal / trlEachBlk) 
     
     #init counter
     trlCntTotal = 0
@@ -1351,6 +1351,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             kb.clearEvents()
             
             win.flip()
+            
+            core.wait(2.0) 
             # store start times for delayCode_2
             delayCode_2.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
             delayCode_2.tStart = globalClock.getTime(format='float')

@@ -1,0 +1,7 @@
+,leftCategory,leftImagePath,rightCategory,rightImagePath,cuedItem
+0,cube,stimuli\cubes_resized\far_right_two.jpg,cube,stimuli\cubes_resized\middle_left_one.jpg,left
+1,cube,stimuli\cubes_resized\far_right_one.jpg,cube,stimuli\cubes_resized\near_left_one.jpg,right
+2,cube,stimuli\cubes_resized\far_right_two.jpg,cube,stimuli\cubes_resized\near_left_one.jpg,left
+3,cube,stimuli\cubes_resized\near_right_one.jpg,cube,stimuli\cubes_resized\far_center_one.jpg,right
+4,cube,stimuli\cubes_resized\far_right_two.jpg,cube,stimuli\cubes_resized\far_right_one.jpg,right
+5,cube,stimuli\cubes_resized\far_right_two.jpg,,,left
