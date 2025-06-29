@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
-    on June 25, 2025, at 15:59
+    on June 29, 2025, at 14:38
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -504,7 +504,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     #fixation cross
     fixCircMask = visual.ImageStim(win,image = imageFilePath + 'visualObj/fixCirc.png',size= fixSize)
     retrocueMask = visual.ImageStim(win,image = imageFilePath + 'visualObj/retrocue.png',size= fixSize)
-    locationTracker = visual.ImageStim(win,image = imageFilePath + 'visualObj/square.png',size= fixSize)
+    locationTracker = visual.ImageStim(win,image = imageFilePath + 'visualObj/square.png',size=(0.5, 0.5))
     #color
     cueCircColor = visual.Polygon(win,edges = 4,radius=1,ori = 45,colorSpace = 'rgb255',fillColor=cueColDefault,size= fixSize/2)
     #create memory items
@@ -845,6 +845,11 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             trlInit.tStop = globalClock.getTime(format='float')
             trlInit.tStopRefresh = tThisFlipGlobal
             thisExp.addData('trlInit.stopped', trlInit.tStop)
+            # Run 'End Routine' code from initTrlParams
+            thisExp.addData('TRIALID',trlId)
+            for col,val in zip(df.iloc[trlCntTotal].index,df.iloc[trlCntTotal]):
+                thisExp.addData(col,val) 
+            
             # the Routine "trlInit" was not non-slip safe, so reset the non-slip timer
             routineTimer.reset()
             
