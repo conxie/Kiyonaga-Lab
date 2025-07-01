@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
-    on June 30, 2025, at 11:42
+    on June 29, 2025, at 14:38
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -400,7 +400,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     trlTotal = len(df)
     trlEachBlk = 60  #counting # of images 
     blkTotal = math.ceil(trlTotal / trlEachBlk) 
-    print(blkTotal)
     
     #init counter
     trlCntTotal = 0
